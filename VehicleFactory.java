@@ -2,10 +2,10 @@ import java.util.ArrayList;
 
 // Implementing factory pattern
 public class VehicleFactory {
-    public int simDay;
+    public Enums.DayOfWeek simDay;
     ArrayList<Vehicle> vehicle;
 
-    VehicleFactory(int day, ArrayList<Vehicle> vehicleInv){
+    VehicleFactory(Enums.DayOfWeek day, ArrayList<Vehicle> vehicleInv){
         simDay = day;
         vehicle = vehicleInv;
     }
@@ -16,10 +16,22 @@ public class VehicleFactory {
         }
         
         if (vehicleType.equalsIgnoreCase("Car")){
-            return new newCar(day, vehicleInv);
+            return new newCar(simDay, vehicle);
         }
         else if(vehicleType.equalsIgnoreCase("PerfCar")){
-            return new newPerfCar(day, vehicleInv);
+            return new newPerfCar(simDay, vehicle);
+        }
+        else if(vehicleType.equalsIgnoreCase("ElectricCar")){
+            return new newElectricCar(simDay, vehicle);
+        }
+        else if(vehicleType.equalsIgnoreCase("MonsterTruck")){
+            return new newMonsterTruck(simDay, vehicle);
+        }
+        else if(vehicleType.equalsIgnoreCase("Pickup")){
+            return new newPickup(simDay, vehicle);
+        }
+        else if(vehicleType.equalsIgnoreCase("Motorcycle")){
+            return new newMotorcycle(simDay, vehicle);
         }
         return null;
     }
@@ -30,23 +42,23 @@ interface newVehicle{
 }
 
 abstract class newVehicleType implements newVehicle {
-    public int simDay;
+    public Enums.DayOfWeek simDay;
     ArrayList<Vehicle> vehicle;
 
-    newVehicleType(int day, ArrayList<Vehicle> vehicleInventory){
+    newVehicleType(Enums.DayOfWeek day, ArrayList<Vehicle> vehicleInventory){
         simDay = day;
         vehicle = vehicleInventory;
     }
 }
 
 class newCar extends newVehicleType{
-    newCar(int day, ArrayList<Vehicle> vehicleInventory){
+    newCar(Enums.DayOfWeek day, ArrayList<Vehicle> vehicleInventory){
         super(day, vehicleInventory);
     }
 
     @Override
     public void makeCar(){
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 6; i++){
             Car newCar = new Car();
 
             vehicle.add(newCar);
@@ -55,13 +67,13 @@ class newCar extends newVehicleType{
 }
 
 class newPerfCar extends newVehicleType{
-    newPerfCar(int day, ArrayList<Vehicle> vehicleInventory){
+    newPerfCar(Enums.DayOfWeek day, ArrayList<Vehicle> vehicleInventory){
         super(day, vehicleInventory);
     }
 
     @Override
     public void makeCar(){
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 6; i++){
             PerfCar newCar = new PerfCar();
 
             vehicle.add(newCar);
@@ -70,13 +82,13 @@ class newPerfCar extends newVehicleType{
 }
 
 class newPickup extends newVehicleType{
-    newPickup(int day, ArrayList<Vehicle> vehicleInventory){
+    newPickup(Enums.DayOfWeek day, ArrayList<Vehicle> vehicleInventory){
         super(day, vehicleInventory);
     }
 
     @Override
     public void makeCar(){
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 6; i++){
             Pickup newCar = new Pickup();
 
             vehicle.add(newCar);
@@ -85,13 +97,13 @@ class newPickup extends newVehicleType{
 }
 
 class newElectricCar extends newVehicleType{
-    newElectricCar(int day, ArrayList<Vehicle> vehicleInventory){
+    newElectricCar(Enums.DayOfWeek day, ArrayList<Vehicle> vehicleInventory){
         super(day, vehicleInventory);
     }
 
     @Override
     public void makeCar(){
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 6; i++){
             ElectricCar newCar = new ElectricCar();
 
             vehicle.add(newCar);
@@ -100,13 +112,13 @@ class newElectricCar extends newVehicleType{
 }
 
 class newMonsterTruck extends newVehicleType{
-    newMonsterTruck(int day, ArrayList<Vehicle> vehicleInventory){
+    newMonsterTruck(Enums.DayOfWeek day, ArrayList<Vehicle> vehicleInventory){
         super(day, vehicleInventory);
     }
 
     @Override
     public void makeCar(){
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 6; i++){
             MonsterTruck newCar = new MonsterTruck();
 
             vehicle.add(newCar);
@@ -114,13 +126,13 @@ class newMonsterTruck extends newVehicleType{
     }
 }
 class newMotorcycle extends newVehicleType{
-    newMotorcycle(int day, ArrayList<Vehicle> vehicleInventory){
+    newMotorcycle(Enums.DayOfWeek day, ArrayList<Vehicle> vehicleInventory){
         super(day, vehicleInventory);
     }
 
     @Override
     public void makeCar(){
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 6; i++){
             Motorcycle newCar = new Motorcycle();
 
             vehicle.add(newCar);
