@@ -336,6 +336,15 @@ class Driver extends Staff {
         racesWon = 0;
         injured = false;
     }
+
+    Driver(String staffName){
+        super();
+        type = Enums.StaffType.Driver;
+        name = staffName;  // every new driver gets a new name
+        salary = 300; // daily salary
+        racesWon = 0;
+        injured = false;
+    }
     void raceVehicles(ArrayList <Vehicle> raceList){
         /*String vehicleType = getRandomVehicleType();
         ArrayList<Vehicle> raceList = new ArrayList<>();

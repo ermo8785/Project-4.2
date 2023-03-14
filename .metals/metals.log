@@ -1271,3 +1271,13 @@ org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
 2023.03.14 14:03:03 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
 2023.03.14 14:05:39 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
 2023.03.14 14:07:48 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.14 14:09:25 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Enums.java
+2023.03.14 14:09:40 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.14 14:09:59 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/StaffFactory.java
+2023.03.14 14:10:04 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Staff.java
+2023.03.14 14:10:06 INFO  time: code lens generation in 1.1s
+Mar 14, 2023 2:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3176
+2023.03.14 14:10:37 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Staff.java
+2023.03.14 14:13:12 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/FNCD.java
+2023.03.14 14:16:12 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Enums.java

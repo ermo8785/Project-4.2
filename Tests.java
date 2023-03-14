@@ -39,7 +39,7 @@ public class Tests{
     // there should be three of each staff type
     public void initEmployees(){
         FNCD testFNCD = new FNCD();
-        assert testFNCD.inventory.size() == 3 * 3;
+        assert testFNCD.inventory.size() == 3 * 4;
     }
 
     // 3

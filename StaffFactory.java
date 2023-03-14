@@ -10,6 +10,8 @@ public class StaffFactory{
                 return new Mechanic(staffName);
             case "SALESPERSON":
                 return new Salesperson(staffName);
+            case "DRIVER":
+                return new Driver(staffName);
         }
         return null;
     }
