@@ -3,9 +3,14 @@ public class StaffFactory{
         if(staffName == null || staffType == null){
             return null;
         }
-        switch(staffType.toUpperCase()){
+        switch (staffType.toUpperCase()){
             case "INTERN":
-                return new Intern();
+                return new Intern(staffName);
+            case "MECHANIC":
+                return new Mechanic(staffName);
+            case "SALESPERSON":
+                return new Salesperson(staffName);
         }
+        return null;
     }
 }

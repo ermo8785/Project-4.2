@@ -59,6 +59,14 @@ class Intern extends Staff {
         salary = 60; // daily salary
         washMethod = getWashMethod();
     }
+    Intern (String internName){
+        super();
+        type = Enums.StaffType.Intern;
+        name = internName;
+        salary = 60;
+        washMethod = getWashMethod();
+    }
+
 
     // How an intern washes cars
     // TODO: There's some duplication in this - it's a little clumsy - refactor me!
@@ -175,6 +183,7 @@ class Intern extends Staff {
 class Mechanic extends Staff {
     static List<String> names = Arrays.asList("James", "Scotty", "Spock", "Uhura");
     static Namer namer = new Namer(names);
+
     Mechanic() {
         super();
         type = Enums.StaffType.Mechanic;
@@ -182,6 +191,13 @@ class Mechanic extends Staff {
         salary = 120; // daily salary
     }
 
+
+    Mechanic(String mechanicName){
+        super();
+        type = Enums.StaffType.Mechanic;
+        name = mechanicName;
+        salary = 120;
+    } 
     // how Mechanics repair Vehicles - not as complicated as the Wash thing above
     void repairVehicles(ArrayList<Vehicle> vList) {
         int fixCount = 0;
@@ -226,6 +242,12 @@ class Salesperson extends Staff {
         salary = 90; // daily salary
     }
 
+    Salesperson(String staffName){
+        super();
+        type = Enums.StaffType.Salesperson;
+        name = staffName;  // every new salesperson gets a new name
+        salary = 90; // daily salary
+    }
     // Someone is asking this Salesperson to sell to this Buyer
     // We'll return any car we sell for the FNCD to keep track of (null if no sale)
     Vehicle sellVehicle(Buyer b, ArrayList<Vehicle> vList) {
