@@ -24,4 +24,24 @@ public class Inteface implements SysOut{
         }
         return NewName;
     }
+
+    public void Details(Vehicle CarName){
+        //Takes car name as a parameter and returns the details of the car 
+        out("Here are the details about the car you selected");
+        out(CarName.enums.VehicleType);
+        out(CarName.enums.condition);
+        out(CarName.enums.Cleanliness);
+    }
+
+    public void CurrentInventory(){
+        //Return everything we have our in our inventory 
+        for (int i = 0; i < Enums.VehicleType.values(); i++){
+            out(Enums.VehicleType.values()[i].toString());
+        }
+    }
+
+    public void BuyVehicle(){
+        //The user will buy the vehicle and be offered some of the add ons if you want them 
+    }
+
 }
