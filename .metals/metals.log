@@ -3857,3 +3857,21 @@ WARNING: Unmatched cancel notification for request id 9364
 Mar 16, 2023 2:24:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 10704
 2023.03.16 14:25:06 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/CommandPattern.java
+2023.03.16 14:25:33 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/CommandPattern.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/CommandPattern.java:13: error: invalid method declaration; return type required
+    public static GetSalesmen(){ //Set a string name in order to get the name of the salesperson, if they wish to change then redue this function as long as the name of the salesperson isn't the same
+                  ^
+/Users/raf/Documents/OOAD/Project-4.2/CommandPattern.java:20: error: invalid method declaration; return type required
+    public static NewSalesPerson(Salesperson name){
+                  ^
+2 errors
+2023.03.16 14:25:52 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/CommandPattern.java
+2023.03.16 14:25:52 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/CommandPattern.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/CommandPattern.java:13: error: invalid method declaration; return type required
+    public static GetSalesmen(){ //Set a string name in order to get the name of the salesperson, if they wish to change then redue this function as long as the name of the salesperson isn't the same
+                  ^
+/Users/raf/Documents/OOAD/Project-4.2/CommandPattern.java:20: error: invalid method declaration; return type required
+    public static NewSalesPerson(Salesperson name){
+                  ^
+2 errors
+2023.03.16 14:26:33 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/CommandPattern.java

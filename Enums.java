@@ -1,3 +1,4 @@
+
 // All the enums for the program in one spot
 // I much prefer enums to magic numbers or constants
 
