@@ -190,13 +190,13 @@ public class FNCD implements SysOut {
     // add a vehicle of a type to the inventory
     void addVehicle(Enums.VehicleType t) {
         Vehicle v = null;
-        VehicleFactory vehFactory = new VehicleFactory(simDay, inventory);
-        if (t == Enums.VehicleType.Car) v = vehFactory.createNewVehicle("car");
-        /*if (t == Enums.VehicleType.PerfCar) v = new PerfCar();
+        VehicleFactory vehFactory = new VehicleFactory(inventory);
+        if (t == Enums.VehicleType.Car) v = new Car();
+        if (t == Enums.VehicleType.PerfCar) v = new PerfCar();
         if (t == Enums.VehicleType.Pickup) v = new Pickup();
         if (t == Enums.VehicleType.MonsterTruck) v = new MonsterTruck();
         if (t == Enums.VehicleType.Motorcycle) v = new Motorcycle();
-        if (t == Enums.VehicleType.ElectricCar) v = new ElectricCar();*/
+        if (t == Enums.VehicleType.ElectricCar) v = new ElectricCar();
         moneyOut(v.cost);  // pay for the vehicle
         out ("FNCD bought "+v.name+", a "+v.cleanliness+" "+v.condition+" "+v.type+" for "+Utility.asDollar(v.cost));
         textOut = textOut.concat("FNCD bought "+v.name+", a "+v.cleanliness+" "+v.condition+" "+v.type+" for "+Utility.asDollar(v.cost)+" \n");

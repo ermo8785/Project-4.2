@@ -47,15 +47,16 @@ public class Tests{
     // 
     public void vehicleFactoryTest(){
         FNCD testFNCD = new FNCD();
-        VehicleFactory testFactory = new VehicleFactory(testFNCD.simDay, testFNCD.inventory);
+        VehicleFactory testFactory = new VehicleFactory(testFNCD.inventory);
 
         int size = testFNCD.inventory.size();
         testFactory.createNewVehicle("PerfCar");
 
         int newSize = testFNCD.inventory.size();
-        assert newSize == size + 6;
+        assert newSize == size + 1;
     }
 
+    @Test
     
     
 }

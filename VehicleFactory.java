@@ -35,12 +35,28 @@ public class VehicleFactory {
     }
 
 }
-interface Vehicle{
-    void makeCar();    
+interface newVehicle{
+    void importCar();   
+}
+abstract class newVehicleType implements newVehicle {
+    ArrayList<Vehicle> vehicle;
+
+    newVehicleType(ArrayList<Vehicle> vehicleInventory){
+        vehicle = vehicleInventory;
+    }
+}
+class newCar extends newVehicleType{
+    newCar(ArrayList<Vehicle> vehicleInv){
+        super(vehicleInv);
+    }
+    @Override
+    public void importCar(){
+        Car newCar = new Car();
+        vehicle.add(newCar);
+    }
 }
 
-abstract class newVehicleType implements Vehicle {
-    public Enums.DayOfWeek simDay;
+/*abstract class newVehicleType implements newVehicle {
     ArrayList<Vehicle> vehicle;
 
     newVehicleType(ArrayList<Vehicle> vehicleInventory){
@@ -48,26 +64,25 @@ abstract class newVehicleType implements Vehicle {
     }
 }
 
-class newCar extends newVehicleType{
+class newCar extends newVehicleType {
     newCar(ArrayList<Vehicle> vehicleInventory){
         super(vehicleInventory);
     }
 
     @Override
-    public void makeCar(){
+    public void importCar(){
             Car newCar = new Car();
-
             vehicle.add(newCar);
     }
 }
 
-class newPerfCar extends newVehicleType{
+class newPerfCar extends newVehicleType {
     newPerfCar(ArrayList<Vehicle> vehicleInventory){
         super(vehicleInventory);
     }
 
     @Override
-    public void makeCar(){
+    public void importCar(){
             PerfCar newCar = new PerfCar();
 
             vehicle.add(newCar);
@@ -80,7 +95,7 @@ class newPickup extends newVehicleType{
     }
 
     @Override
-    public void makeCar(){
+    public void importCar(){
             Pickup newCar = new Pickup();
 
             vehicle.add(newCar);
@@ -94,7 +109,7 @@ class newElectricCar extends newVehicleType{
     }
 
     @Override
-    public void makeCar(){
+    public void importCar(){
             ElectricCar newCar = new ElectricCar();
 
             vehicle.add(newCar);
@@ -108,7 +123,7 @@ class newMonsterTruck extends newVehicleType{
     }
 
     @Override
-    public void makeCar(){
+    public void importCar(){
             MonsterTruck newCar = new MonsterTruck();
 
             vehicle.add(newCar);
@@ -121,9 +136,9 @@ class newMotorcycle extends newVehicleType{
     }
 
     @Override
-    public void makeCar(){
+    public void importCar(){
             Motorcycle newCar = new Motorcycle();
 
             vehicle.add(newCar);
     }
-}
+}*/

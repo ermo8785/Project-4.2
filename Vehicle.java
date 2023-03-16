@@ -17,7 +17,7 @@ public abstract class Vehicle {
     int racesWon;
     int range; // Electric cars have unique range attribute, randomly set between 60 and 400 miles
     int engineSizeRate; // generated from truncated normal distribution with mean 700 and std. dev. 300.
-    Vehicle () {
+    public Vehicle () {
         // all vehicles have the same cleanliness arrival chance
         double chance = Utility.rnd();
         if (chance <= .05) cleanliness = Enums.Cleanliness.Sparkling;
@@ -74,6 +74,7 @@ class Car extends Vehicle {
         wash_bonus = 20;
         sale_bonus = 500;
     }
+    
 }
 
 class PerfCar extends Vehicle {
