@@ -1,14 +1,12 @@
 import java.util.ArrayList;
-
-// Implementing factory pattern
+// Factory pattern
 public class VehicleFactory {
     ArrayList<Vehicle> vehicle;
 
-    VehicleFactory(ArrayList<Vehicle> vehicleInv){
-        vehicle = vehicleInv;
+    VehicleFactory(ArrayList<Vehicle> inventory){
+        vehicle = inventory;
     }
-
-    public Vehicle createNewVehicle(String vehicleType){
+    public newVehicle createNewVehicle(String vehicleType){
         if (vehicleType == null){
             return null;
         }
@@ -45,24 +43,6 @@ abstract class newVehicleType implements newVehicle {
         vehicle = vehicleInventory;
     }
 }
-class newCar extends newVehicleType{
-    newCar(ArrayList<Vehicle> vehicleInv){
-        super(vehicleInv);
-    }
-    @Override
-    public void importCar(){
-        Car newCar = new Car();
-        vehicle.add(newCar);
-    }
-}
-
-/*abstract class newVehicleType implements newVehicle {
-    ArrayList<Vehicle> vehicle;
-
-    newVehicleType(ArrayList<Vehicle> vehicleInventory){
-        vehicle = vehicleInventory;
-    }
-}
 
 class newCar extends newVehicleType {
     newCar(ArrayList<Vehicle> vehicleInventory){
@@ -71,8 +51,11 @@ class newCar extends newVehicleType {
 
     @Override
     public void importCar(){
+
+        for(int i = 0; i < 6; i++){
             Car newCar = new Car();
             vehicle.add(newCar);
+        }
     }
 }
 
@@ -83,9 +66,10 @@ class newPerfCar extends newVehicleType {
 
     @Override
     public void importCar(){
-            PerfCar newCar = new PerfCar();
-
+        for(int i = 0; i < 6; i++){
+            Car newCar = new Car();
             vehicle.add(newCar);
+        }
     }
 }
 
@@ -96,10 +80,11 @@ class newPickup extends newVehicleType{
 
     @Override
     public void importCar(){
-            Pickup newCar = new Pickup();
-
+        for(int i = 0; i < 6; i++){
+            Car newCar = new Car();
             vehicle.add(newCar);
         }
+    }
 
 }
 
@@ -110,9 +95,10 @@ class newElectricCar extends newVehicleType{
 
     @Override
     public void importCar(){
-            ElectricCar newCar = new ElectricCar();
-
+        for(int i = 0; i < 6; i++){
+            Car newCar = new Car();
             vehicle.add(newCar);
+        }
 
     }
 }
@@ -124,10 +110,10 @@ class newMonsterTruck extends newVehicleType{
 
     @Override
     public void importCar(){
-            MonsterTruck newCar = new MonsterTruck();
-
+        for(int i = 0; i < 6; i++){
+            Car newCar = new Car();
             vehicle.add(newCar);
-
+        }
     }
 }
 class newMotorcycle extends newVehicleType{
@@ -137,8 +123,9 @@ class newMotorcycle extends newVehicleType{
 
     @Override
     public void importCar(){
-            Motorcycle newCar = new Motorcycle();
-
+        for(int i = 0; i < 6; i++){
+            Car newCar = new Car();
             vehicle.add(newCar);
+        }
     }
-}*/
+}

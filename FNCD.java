@@ -16,6 +16,9 @@ public class FNCD implements SysOut {
     Enums.DayOfWeek simDay; 
     String textOut = " ";
     ArrayList<Tracker> dealerTracker;
+
+    // Initialize vehicles using VehicleFactory class
+    
     FNCD() {
         staff = new ArrayList<>();
         departedStaff = new ArrayList<>();
@@ -23,6 +26,21 @@ public class FNCD implements SysOut {
         soldVehicles = new ArrayList<>();
         dealerTracker = new ArrayList<>();
         budget = 100000;  // I changed this just to see additions to the budget happen
+
+        // Initialize vehicles using VehicleFactory class
+        VehicleFactory vehicleFactory = new VehicleFactory(inventory);
+        vehicleFactory.createNewVehicle("Car").importCar();
+        vehicleFactory.createNewVehicle("PerfCar").importCar();
+        vehicleFactory.createNewVehicle("Pickup").importCar();
+        vehicleFactory.createNewVehicle("MonsterTruck").importCar();
+        vehicleFactory.createNewVehicle("ElectricCar").importCar();
+        vehicleFactory.createNewVehicle("Motorcycle").importCar();
+
+        // Initialize staff using StaffFactory class
+        StaffFactory staffFactory = new StaffFactory(staff);
+        staffFactory.createNewStaff("Intern").addNewStaff();
+        staffFactory.createNewStaff("Mechanic").addNewStaff();
+        staffFactory.createNewStaff("Salesperson").addNewStaff();
     }
     double getBudget() {
         return budget;    // I'm keeping this private to be on the safe side
@@ -159,6 +177,8 @@ public class FNCD implements SysOut {
         for (Enums.StaffType t : Enums.StaffType.values()) {
             int typeInList = Staff.howManyStaffByType(staff, t);
             int need = numberInStaff - typeInList;
+
+            // Uses Staff Factory
             for (int i = 1; i<=need; ++i) addStaff(t);
         }
     }
@@ -190,8 +210,6 @@ public class FNCD implements SysOut {
     // add a vehicle of a type to the inventory
     void addVehicle(Enums.VehicleType t) {
         Vehicle v = null;
-        VehicleFactory vehFactory = new VehicleFactory(inventory);
-        if (t == Enums.VehicleType.Car) v = new Car();
         if (t == Enums.VehicleType.PerfCar) v = new PerfCar();
         if (t == Enums.VehicleType.Pickup) v = new Pickup();
         if (t == Enums.VehicleType.MonsterTruck) v = new MonsterTruck();
