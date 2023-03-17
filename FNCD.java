@@ -28,19 +28,23 @@ public class FNCD implements SysOut {
         budget = 100000;  // I changed this just to see additions to the budget happen
 
         // Initialize vehicles using VehicleFactory class
-        /*VehicleFactory vehicleFactory = new VehicleFactory(inventory);
+        VehicleFactory vehicleFactory = new VehicleFactory(inventory);
         vehicleFactory.createNewVehicle("Car").importCar();
         vehicleFactory.createNewVehicle("PerfCar").importCar();
         vehicleFactory.createNewVehicle("Pickup").importCar();
         vehicleFactory.createNewVehicle("MonsterTruck").importCar();
         vehicleFactory.createNewVehicle("ElectricCar").importCar();
         vehicleFactory.createNewVehicle("Motorcycle").importCar();
+        vehicleFactory.createNewVehicle("Luxury").importCar();
+        vehicleFactory.createNewVehicle("Semi").importCar();
+        vehicleFactory.createNewVehicle("Offroad").importCar();
 
         // Initialize staff using StaffFactory class
         StaffFactory staffFactory = new StaffFactory(staff);
         staffFactory.createNewStaff("Intern").addNewStaff();
         staffFactory.createNewStaff("Mechanic").addNewStaff();
-        staffFactory.createNewStaff("Salesperson").addNewStaff();*/
+        staffFactory.createNewStaff("Salesperson").addNewStaff();
+        staffFactory.createNewStaff("Driver").addNewStaff();
     }
     double getBudget() {
         return budget;    // I'm keeping this private to be on the safe side
