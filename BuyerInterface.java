@@ -25,15 +25,22 @@ class Time implements BuyerInterface {
 }
 
 class CurrentInventory implements BuyerInterface{
+    ArrayList<Vehicle> vehicleInventory = new ArrayList<>();
     StringBuilder CarInventory = new StringBuilder();
     public String execute(FNCD Choice){
         for (Vehicle i: Choice.inventory){
             CarInventory.append(i).append("\n");
+            vehicleInventory.add(i);
         }
         return CarInventory.toString();
     }
-}
 
+    public void ScanCar() {
+        Vehicle Car;
+        System.out.println("Here's the list of this FNCD's inventory. Enter the name of the vehicle to see its details.");
+        Scanner CarInput = new Scanner(System.in);
+    }
+}
 class CarDetails{
     StringBuilder Details = new StringBuilder();
     public String execute(FNCD Choice, Vehicle CarChoice){
