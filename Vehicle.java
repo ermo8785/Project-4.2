@@ -163,3 +163,50 @@ class MonsterTruck extends Vehicle{
         racesWon = 0;
     }
 }
+
+class Luxury extends Vehicle {
+    static List<String>names = Arrays.asList("Mercedez, BMW, Acura, Roles Royce, Tesla");
+    static Namer namer = new Namer(names);
+
+    Luxury(){
+        super();
+        type = Enums.VehicleType.Luxury;
+        name = namer.getNext();
+        cost = getCost(30000, 80000);
+        price = (cost * 2);
+        repair_bonus = 400;
+        wash_bonus = 125;
+        sale_bonus = 950;
+    }
+}
+
+class Offroad extends Vehicle {
+    static List<String>names = Arrays.asList("Mercedez, BMW, Acura, Roles Royce, Tesla");
+    static Namer namer = new Namer(names);
+
+    Offroad(){
+        super();
+        type = Enums.VehicleType.Offroad;
+        name = namer.getNext();
+        cost = getCost(25000, 60000);
+        price = (cost * 2);
+        repair_bonus = 800;
+        wash_bonus = 100;
+        sale_bonus = 800;
+    }
+}
+
+class Semi extends Vehicle {
+    static List<String>names = Arrays.asList("Mercedez, BMW, Acura, Roles Royce, Tesla");
+    static Namer namer = new Namer(names);
+
+    Semi(){
+        super();
+        type = Enums.VehicleType.Semi;
+        name = namer.getNext();
+        cost = getCost(85000, 175000);
+        price = (cost * 2);
+        repair_bonus = 2000;
+        wash_bonus = 1500;
+    }
+}

@@ -1,7 +1,7 @@
 // Simulator to cycle for select number of days
 import java.util.Scanner;
 
-import org.junit.runners.Parameterized.UseParametersRunnerFactory;
+//import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class Simulator implements SysOut {
     final int numDays;
     Enums.DayOfWeek dayOfWeek;
