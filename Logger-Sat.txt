@@ -1,13 +1,15 @@
  The FNCD is opening... Day Sat 
-Hired a new Intern named Ethel-18 
+Hired a new Intern named Lucy-18 
+FNCD bought Suzuki-4, a Dirty Used Motorcycle for $31,405.60 
+FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-19, a Clean Used Semi for $136,844.00 
+FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-19, a Dirty Broken Offroad for $22,204.00 
+FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-20, a Dirty LikeNew Offroad for $46,148.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 5 buyers today... 
-Mechanic Fred-16 has quit the FNCD 
-Intern Ethel-18 has been promoted to a mechanic! 
-Intern Ethel-18 has quit the FNCD 
-Vehicles in inventory 52 
-Vehicles sold count 37 
-Money in the budget $6,762,315.51 
+The FNCD has 6 buyers today... 
+Intern Fred-16 has quit the FNCD 
+Vehicles in inventory 50 
+Vehicles sold count 31 
+Money in the budget $5,338,716.76 
 That's it for the day. 

@@ -1,13 +1,14 @@
  The FNCD is opening... Day Tue 
-Hired a new Intern named Fred-19 
-FNCD bought Mustang-6, a Dirty Used PerfCar for $18,028.00 
-FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-21, a Dirty Used Luxury for $37,540.00 
+Hired a new Intern named Lucy-17 
+FNCD bought Sorrento-4, a Dirty LikeNew ElectricCar for $12,598.00 
+FNCD bought Charger-4, a Clean LikeNew ElectricCar for $16,085.00 
+FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-17, a Clean Broken Offroad for $26,811.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 2 buyers today... 
+The FNCD has 3 buyers today... 
 Intern Lucy-17 has quit the FNCD 
 Vehicles in inventory 53 
-Vehicles sold count 47 
-Money in the budget $5,875,679.56 
+Vehicles sold count 23 
+Money in the budget $4,239,440.40 
 That's it for the day. 

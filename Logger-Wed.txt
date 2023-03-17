@@ -1,22 +1,18 @@
  The FNCD is opening... Day Mon 
-Hired a new Intern named Fred-17 
-FNCD bought Corvette-6, a Dirty Broken PerfCar for $13,309.00 
-FNCD bought Charger-4, a Dirty LikeNew ElectricCar for $22,039.00 
-FNCD bought Mitsubishi-5, a Clean Broken Motorcycle for $11,015.00 
+Hired a new Intern named Ethel-17 
+FNCD bought Prius-4, a Clean Used ElectricCar for $28,872.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 1 buyers today... 
-Intern Fred-17 has quit the FNCD 
-Vehicles in inventory 54 
-Vehicles sold count 44 
-Money in the budget $4,790,864.94 
+The FNCD has 4 buyers today... 
+Intern Ethel-17 has quit the FNCD 
+Vehicles in inventory 50 
+Vehicles sold count 36 
+Money in the budget $5,880,029.77 
 That's it for the day. 
-Hired a new Intern named Lucy-17 
-The FNCD is looking to prepare for a race...Today's race features vehicles of type MonsterTruckSalesperson Desi-13 has quit the FNCD 
-Intern Ethel-16 has been promoted to a salesmen! 
-Intern Ethel-16 has quit the FNCD 
-Vehicles in inventory 54 
-Vehicles sold count 44 
-Money in the budget $4,789,154.94 
+Hired a new Intern named Desi-17 
+The FNCD is looking to prepare for a race...Today's race features vehicles of type CarIntern Ethel-16 has quit the FNCD 
+Vehicles in inventory 50 
+Vehicles sold count 36 
+Money in the budget $5,878,319.77 
 That's it for the day. 

@@ -51,25 +51,25 @@ public class Simulator implements SysOut {
         Scanner Choice = new Scanner(System.in);
         boolean UserIn = true;
 
-        while(UserIn){
+        while(true){
             String Store = Choice.nextLine();
 
-            if(Store == "North"){
+            if(Store.equals("North")){
                 UserMenu FNCDChoice = new UserMenu();
                 FNCDChoice.Menu(North);
-                UserIn = false; 
+                break; 
             }
-            else if (Store == "South"){
+            else if (Store.equals("South")){
                 UserMenu FNCDChoice = new UserMenu();
                 FNCDChoice.Menu(South);
-                UserIn = false;
+                break;
             }
             else{
                 out("The entered text is incorrect please make sure everything is typed correctly as shown.");
                 int count = 0;
                 count += 1;
                 if (count == 3){
-                    UserIn = false;
+                    break;
                 }
             }
 

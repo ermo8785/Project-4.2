@@ -1,13 +1,12 @@
  The FNCD is opening... Day Thur 
-Hired a new Intern named Desi-17 
-Hired a new Driver named Laura-3 
-FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-23, a Sparkling Used Offroad for $35,475.20 
+Hired a new Intern named Fred-18 
+FNCD bought Tesla-5, a Dirty LikeNew ElectricCar for $13,210.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 0 buyers today... 
+The FNCD has 5 buyers today... 
 Intern Lucy-16 has quit the FNCD 
-Vehicles in inventory 54 
-Vehicles sold count 35 
-Money in the budget $6,489,924.71 
+Vehicles in inventory 50 
+Vehicles sold count 27 
+Money in the budget $5,100,623.17 
 That's it for the day. 
