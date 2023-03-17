@@ -3,35 +3,13 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class Tests{
-    StaffFactory staffFactory = new StaffFactory();
-    Staff[] Intern = {
-        (Staff) staffFactory.createNewStaff("Hansel Simpson", "Intern"),
-        (Staff) staffFactory.createNewStaff("John Johnson", "Intern"),
-        (Staff) staffFactory.createNewStaff("Johnny Cash", "Intern"),
-        (Staff) staffFactory.createNewStaff("Raf Simons", "Intern")
-    };
-
-    Staff[] Mechanic = {
-        (Staff) staffFactory.createNewStaff("Hansel Sims", "Mechanic"),
-        (Staff) staffFactory.createNewStaff("John Johns", "Mechanic"),
-        (Staff) staffFactory.createNewStaff("Johnny Cas", "Mechanic"),
-        (Staff) staffFactory.createNewStaff("Raf Simon", "Mechanic")
-    };
-
-    Staff[] Salesperson ={
-        (Staff) staffFactory.createNewStaff("Han Simpson", "Salesperson"),
-        (Staff) staffFactory.createNewStaff("Jo Johnson", "Salesperson"),
-        (Staff) staffFactory.createNewStaff("John Cash", "Salesperson"),
-        (Staff) staffFactory.createNewStaff("Rafael Simons", "Salesperson")
-    };
-
     //1
     @Test
     public void initVehicles(){
         FNCD testFNCD = new FNCD();
 
         // there should be six of each vehicle type
-        assert testFNCD.inventory.size() == 6 * 6;
+        assert testFNCD.inventory.size() == 6 * 9;
     }
 
     //2
@@ -56,7 +34,38 @@ public class Tests{
         assert newSize == size + 1;
     }
 
+    // 4
     @Test
+    public void staffFactoryTest(){
+        FNCD testFNCD = new FNCD();
+        StaffFactory testFactory = new StaffFactory(testFNCD.staff);
+
+        int size = testFNCD.staff.size();
+        testFactory.createNewStaff("Salesperson");
+
+        int newSize = testFNCD.inventory.size();
+        assert newSize == size + 1;
+    }
     
-    
+    // 5
+
+    // 6
+
+    // 7
+
+    // 8
+
+    // 9
+
+    // 10
+
+    // 11
+
+    // 12
+
+    // 13
+
+    // 14
+
+    // 15
 }

@@ -1,14 +1,12 @@
 import java.util.ArrayList;
-
-// Implementing factory pattern
+// Factory pattern
 public class VehicleFactory {
     ArrayList<Vehicle> vehicle;
 
-    VehicleFactory(ArrayList<Vehicle> vehicleInv){
-        vehicle = vehicleInv;
+    VehicleFactory(ArrayList<Vehicle> inventory){
+        vehicle = inventory;
     }
-
-    public Vehicle createNewVehicle(String vehicleType){
+    public newVehicle createNewVehicle(String vehicleType){
         if (vehicleType == null){
             return null;
         }
@@ -31,6 +29,15 @@ public class VehicleFactory {
         else if(vehicleType.equalsIgnoreCase("Motorcycle")){
             return new newMotorcycle(vehicle);
         }
+        else if(vehicleType.equalsIgnoreCase("Semi")){
+            return new newSemi(vehicle);
+        }
+        else if(vehicleType.equalsIgnoreCase("Offroad")){
+            return new newOffroad(vehicle);
+        }
+        else if(vehicleType.equalsIgnoreCase("Luxury")){
+            return new newLuxury(vehicle);
+        }
         return null;
     }
 
@@ -45,24 +52,6 @@ abstract class newVehicleType implements newVehicle {
         vehicle = vehicleInventory;
     }
 }
-class newCar extends newVehicleType{
-    newCar(ArrayList<Vehicle> vehicleInv){
-        super(vehicleInv);
-    }
-    @Override
-    public void importCar(){
-        Car newCar = new Car();
-        vehicle.add(newCar);
-    }
-}
-
-/*abstract class newVehicleType implements newVehicle {
-    ArrayList<Vehicle> vehicle;
-
-    newVehicleType(ArrayList<Vehicle> vehicleInventory){
-        vehicle = vehicleInventory;
-    }
-}
 
 class newCar extends newVehicleType {
     newCar(ArrayList<Vehicle> vehicleInventory){
@@ -71,8 +60,11 @@ class newCar extends newVehicleType {
 
     @Override
     public void importCar(){
+
+        for(int i = 0; i < 6; i++){
             Car newCar = new Car();
             vehicle.add(newCar);
+        }
     }
 }
 
@@ -83,9 +75,10 @@ class newPerfCar extends newVehicleType {
 
     @Override
     public void importCar(){
+        for(int i = 0; i < 6; i++){
             PerfCar newCar = new PerfCar();
-
             vehicle.add(newCar);
+        }
     }
 }
 
@@ -96,10 +89,11 @@ class newPickup extends newVehicleType{
 
     @Override
     public void importCar(){
+        for(int i = 0; i < 6; i++){
             Pickup newCar = new Pickup();
-
             vehicle.add(newCar);
         }
+    }
 
 }
 
@@ -110,9 +104,10 @@ class newElectricCar extends newVehicleType{
 
     @Override
     public void importCar(){
+        for(int i = 0; i < 6; i++){
             ElectricCar newCar = new ElectricCar();
-
             vehicle.add(newCar);
+        }
 
     }
 }
@@ -124,10 +119,10 @@ class newMonsterTruck extends newVehicleType{
 
     @Override
     public void importCar(){
+        for(int i = 0; i < 6; i++){
             MonsterTruck newCar = new MonsterTruck();
-
             vehicle.add(newCar);
-
+        }
     }
 }
 class newMotorcycle extends newVehicleType{
@@ -137,8 +132,51 @@ class newMotorcycle extends newVehicleType{
 
     @Override
     public void importCar(){
+        for(int i = 0; i < 6; i++){
             Motorcycle newCar = new Motorcycle();
-
             vehicle.add(newCar);
+        }
     }
-}*/
+}
+
+class newSemi extends newVehicleType{
+    newSemi(ArrayList<Vehicle> vehicleInventory){
+        super(vehicleInventory);
+    }
+
+    @Override
+    public void importCar(){
+        for(int i = 0; i < 6; i++){
+            Semi newCar = new Semi();
+            vehicle.add(newCar);
+        }
+    }
+}
+
+class newOffroad extends newVehicleType{
+    newOffroad(ArrayList<Vehicle> vehicleInventory){
+        super(vehicleInventory);
+    }
+
+    @Override
+    public void importCar(){
+        for(int i = 0; i < 6; i++){
+            Offroad newCar = new Offroad();
+            vehicle.add(newCar);
+        }
+    }
+}
+
+class newLuxury extends newVehicleType{
+    newLuxury(ArrayList<Vehicle> vehicleInventory){
+        super(vehicleInventory);
+    }
+
+    @Override
+    public void importCar(){
+        for(int i = 0; i < 6; i++){
+            Luxury newCar = new Luxury();
+            vehicle.add(newCar);
+        }
+    }
+}
