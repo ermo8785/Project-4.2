@@ -179,7 +179,9 @@ public class FNCD implements SysOut {
             int need = numberInStaff - typeInList;
 
             // Uses Staff Factory
-            for (int i = 1; i<=need; ++i) addStaff(t);
+            for (int i = 1; i<=need; ++i){
+                addStaff(t);
+            }
         }
     }
 
@@ -202,7 +204,11 @@ public class FNCD implements SysOut {
         for (Enums.VehicleType t : Enums.VehicleType.values()) {
             int typeInList = Vehicle.howManyVehiclesByType(inventory, t);
             int need = numberInInventory - typeInList;
-            for (int i = 1; i<=need; ++i) addVehicle(t);
+            for (int i = 1; i<=need; ++i) {
+                Tracker vehicleTracker = Tracker.getInstance(t.name());
+                dealerTracker.add(vehicleTracker);
+                addVehicle(t);
+            }
         }
 
     }

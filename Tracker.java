@@ -1,19 +1,21 @@
 import java.util.ArrayList;
 
-public class Tracker {
+// Singleton pattern implemented with lazy instantiation
+public class Tracker extends FNCD {
     public int vehiclesSold;
     public int vehiclesInInventory;
-    public Double moneyEarnedByStaff;
 
-    public Tracker(){
-        // Publish these events
-        /* Keep track of budget
-            Money earned by each staff member
-            Vehicles sold
-            Vehicles in inventory
-         */
+    private static Tracker instance = null;
+    private Tracker(){
         this.vehiclesSold = 0;
         this.vehiclesInInventory = 0;
+    }
+
+    public static Tracker getInstance(){
+        if(instance == null){
+            instance = new Tracker();
+        }
+        return instance;
     }
 
     public static void dailySummary(Enums.DayOfWeek simDay, ArrayList<Tracker> dealerTracker){
@@ -21,7 +23,7 @@ public class Tracker {
 
         System.out.println("Tracker -- Day: " + simDay);
         for(Tracker t : dealerTracker){
-            System.out.println("Vehicles sold: "+t.vehiclesSold);
+            System.out.println("Vehicles sold: "+ t.vehiclesSold);
             System.out.println("Vehicles in inventory: " + t.vehiclesInInventory);
         }
         System.out.println(" ");

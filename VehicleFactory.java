@@ -29,6 +29,15 @@ public class VehicleFactory {
         else if(vehicleType.equalsIgnoreCase("Motorcycle")){
             return new newMotorcycle(vehicle);
         }
+        else if(vehicleType.equalsIgnoreCase("Semi")){
+            return new newSemi(vehicle);
+        }
+        else if(vehicleType.equalsIgnoreCase("Offroad")){
+            return new newOffroad(vehicle);
+        }
+        else if(vehicleType.equalsIgnoreCase("Luxury")){
+            return new newLuxury(vehicle);
+        }
         return null;
     }
 
@@ -67,7 +76,7 @@ class newPerfCar extends newVehicleType {
     @Override
     public void importCar(){
         for(int i = 0; i < 6; i++){
-            Car newCar = new Car();
+            PerfCar newCar = new PerfCar();
             vehicle.add(newCar);
         }
     }
@@ -81,7 +90,7 @@ class newPickup extends newVehicleType{
     @Override
     public void importCar(){
         for(int i = 0; i < 6; i++){
-            Car newCar = new Car();
+            Pickup newCar = new Pickup();
             vehicle.add(newCar);
         }
     }
@@ -96,7 +105,7 @@ class newElectricCar extends newVehicleType{
     @Override
     public void importCar(){
         for(int i = 0; i < 6; i++){
-            Car newCar = new Car();
+            ElectricCar newCar = new ElectricCar();
             vehicle.add(newCar);
         }
 
@@ -111,7 +120,7 @@ class newMonsterTruck extends newVehicleType{
     @Override
     public void importCar(){
         for(int i = 0; i < 6; i++){
-            Car newCar = new Car();
+            MonsterTruck newCar = new MonsterTruck();
             vehicle.add(newCar);
         }
     }
@@ -124,7 +133,49 @@ class newMotorcycle extends newVehicleType{
     @Override
     public void importCar(){
         for(int i = 0; i < 6; i++){
-            Car newCar = new Car();
+            Motorcycle newCar = new Motorcycle();
+            vehicle.add(newCar);
+        }
+    }
+}
+
+class newSemi extends newVehicleType{
+    newSemi(ArrayList<Vehicle> vehicleInventory){
+        super(vehicleInventory);
+    }
+
+    @Override
+    public void importCar(){
+        for(int i = 0; i < 6; i++){
+            Semi newCar = new Semi();
+            vehicle.add(newCar);
+        }
+    }
+}
+
+class newOffroad extends newVehicleType{
+    newOffroad(ArrayList<Vehicle> vehicleInventory){
+        super(vehicleInventory);
+    }
+
+    @Override
+    public void importCar(){
+        for(int i = 0; i < 6; i++){
+            Offroad newCar = new Offroad();
+            vehicle.add(newCar);
+        }
+    }
+}
+
+class newLuxury extends newVehicleType{
+    newLuxury(ArrayList<Vehicle> vehicleInventory){
+        super(vehicleInventory);
+    }
+
+    @Override
+    public void importCar(){
+        for(int i = 0; i < 6; i++){
+            Luxury newCar = new Luxury();
             vehicle.add(newCar);
         }
     }

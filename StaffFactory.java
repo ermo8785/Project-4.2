@@ -19,6 +19,9 @@ public class StaffFactory{
         else if (staffType.equalsIgnoreCase("Salesperson")){
             return new newIntern(staff);
         }
+        else if (staffType.equalsIgnoreCase("Driver")){
+            return new newIntern(staff);
+        }
         return null;
     }
 }
@@ -65,6 +68,18 @@ class newSalesperson extends newStaffType{
     public void addNewStaff(){
         for(int i = 0; i < 3; i++){
             Salesperson newStaff = new Salesperson();
+            staff.add(newStaff);
+        }
+    }
+}
+
+class newDriver extends newStaffType{
+    newDriver(ArrayList<Staff> staffLst){
+        super(staffLst);
+    }
+    public void addNewStaff(){
+        for(int i = 0; i < 3; i++){
+            Driver newStaff = new Driver();
             staff.add(newStaff);
         }
     }
