@@ -28,7 +28,7 @@ public class FNCD implements SysOut {
         budget = 100000;  // I changed this just to see additions to the budget happen
 
         // Initialize vehicles using VehicleFactory class
-        VehicleFactory vehicleFactory = new VehicleFactory(inventory);
+        /*VehicleFactory vehicleFactory = new VehicleFactory(inventory);
         vehicleFactory.createNewVehicle("Car").importCar();
         vehicleFactory.createNewVehicle("PerfCar").importCar();
         vehicleFactory.createNewVehicle("Pickup").importCar();
@@ -40,7 +40,7 @@ public class FNCD implements SysOut {
         StaffFactory staffFactory = new StaffFactory(staff);
         staffFactory.createNewStaff("Intern").addNewStaff();
         staffFactory.createNewStaff("Mechanic").addNewStaff();
-        staffFactory.createNewStaff("Salesperson").addNewStaff();
+        staffFactory.createNewStaff("Salesperson").addNewStaff();*/
     }
     double getBudget() {
         return budget;    // I'm keeping this private to be on the safe side
@@ -220,6 +220,7 @@ public class FNCD implements SysOut {
     // add a vehicle of a type to the inventory
     void addVehicle(Enums.VehicleType t) {
         Vehicle v = null;
+        if (t == Enums.VehicleType.Car) v = new Car();
         if (t == Enums.VehicleType.PerfCar) v = new PerfCar();
         if (t == Enums.VehicleType.Pickup) v = new Pickup();
         if (t == Enums.VehicleType.MonsterTruck) v = new MonsterTruck();
