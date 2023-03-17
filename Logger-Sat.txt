@@ -1,13 +1,14 @@
  The FNCD is opening... Day Sat 
-Hired a new Intern named Fred-17 
-FNCD bought Escort-6, a Clean LikeNew Car for $11,455.00 
-FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-15, a Clean LikeNew Offroad for $56,465.00 
+Hired a new Intern named Lucy-15 
+FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-21, a Dirty LikeNew Luxury for $39,789.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 4 buyers today... 
-Intern Fred-17 has quit the FNCD 
-Vehicles in inventory 51 
-Vehicles sold count 31 
-Money in the budget $3,590,278.49 
+The FNCD has 8 buyers today... 
+Salesperson Chandler has quit the FNCD 
+Intern Lucy-15 has been promoted to a salesmen! 
+Intern Lucy-13 has quit the FNCD 
+Vehicles in inventory 50 
+Vehicles sold count 34 
+Money in the budget $5,292,842.23 
 That's it for the day. 
