@@ -7342,3 +7342,4 @@ WARNING: Unmatched cancel notification for request id 4153
 2023.03.17 14:25:04 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
 2023.03.17 14:26:04 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Staff.java
 2023.03.17 14:26:06 INFO  time: code lens generation in 1.03s
+2023.03.17 14:31:02 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
