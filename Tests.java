@@ -2,6 +2,8 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import Enums.DayOfWeek;
+
 public class Tests{
     //1
     @Test
@@ -48,7 +50,15 @@ public class Tests{
     }
     
     // 5
+    @Test
+    public void loggerAndSingletonTest(){
+        Enums.DayOfWeek simDay1 = Enums.DayOfWeek.Thur;
+        Enums.DayOfWeek simDay2 = Enums.DayOfWeek.Thur;
+        Logger instanceOne = Logger.getInstance(simDay1);
+        Logger instanceTwo = Logger.getInstance(simDay2);
+        Assert.assertSame("The two objects are the same, indicating well implemented Singleton pattern");
 
+    }
     // 6
 
     // 7

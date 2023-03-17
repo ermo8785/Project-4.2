@@ -6515,3 +6515,70 @@ WARNING: Unmatched cancel notification for request id 24562
 2023.03.16 19:24:54 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/FNCD.java
 2023.03.16 19:27:30 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/FNCD.java
 2023.03.16 19:30:55 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/FNCD.java
+2023.03.17 12:21:05 INFO  Shutting down server
+2023.03.17 12:21:05 INFO  shutting down Metals
+2023.03.17 12:21:05 INFO  Exiting server
+2023.03.17 13:42:14 INFO  Started: Metals version 0.11.11 in workspace '/Users/raf/Documents/OOAD/Project-4.2' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/raf/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.17 13:42:15 INFO  time: initialize in 0.83s
+2023.03.17 13:42:20 WARN  Build server is not auto-connectable.
+2023.03.17 13:42:20 WARN  no build tool detected in workspace '/Users/raf/Documents/OOAD/Project-4.2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.17 13:42:20 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/FNCD.java
+Mar 17, 2023 1:42:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Mar 17, 2023 1:42:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Mar 17, 2023 1:42:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Mar 17, 2023 1:42:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.03.17 13:42:23 INFO  time: code lens generation in 2.77s
+2023.03.17 13:42:23 INFO  time: code lens generation in 1.78s
+2023.03.17 13:42:32 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
+Mar 17, 2023 1:42:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2023.03.17 13:46:14 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
+2023.03.17 13:48:22 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:48:47 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 13:49:02 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/SysOut.java
+2023.03.17 13:49:04 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 13:49:20 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:49:21 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/Tests.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/Tests.java:72: error: illegal start of type
+}
+^
+1 error
+2023.03.17 13:50:05 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Logger.java
+2023.03.17 13:50:16 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Vehicle.java
+2023.03.17 13:50:17 INFO  time: code lens generation in 1.03s
+2023.03.17 13:52:58 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:54:01 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Enums.java
+2023.03.17 13:54:12 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:54:17 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:54:44 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:54:45 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:55:00 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:55:12 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:55:15 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:55:24 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:55:30 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:55:45 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:56:31 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:56:32 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/Tests.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/Tests.java:58: error: <identifier> expected
+        Logger instanceTwo = Logger. 
+                                    ^
+1 error
+2023.03.17 13:56:49 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:57:41 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+2023.03.17 13:57:41 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/Tests.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/Tests.java:59: error: ';' expected
+        Assert.assertSame("The two objects are the same, indicating well implemented Singleton pattern")
+                                                                                                        ^
+1 error
+2023.03.17 13:57:52 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java

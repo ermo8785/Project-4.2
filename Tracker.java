@@ -11,7 +11,7 @@ public class Tracker extends FNCD {
         this.vehiclesInInventory = 0;
     }
 
-    public static Tracker getInstance(){
+    public static Tracker getInstance(String vehicle){
         if(instance == null){
             instance = new Tracker();
         }
