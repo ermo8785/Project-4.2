@@ -226,6 +226,9 @@ public class FNCD implements SysOut {
         if (t == Enums.VehicleType.MonsterTruck) v = new MonsterTruck();
         if (t == Enums.VehicleType.Motorcycle) v = new Motorcycle();
         if (t == Enums.VehicleType.ElectricCar) v = new ElectricCar();
+        if (t == Enums.VehicleType.Luxury) v = new Luxury();
+        if (t == Enums.VehicleType.Semi) v = new Semi();
+        if (t == Enums.VehicleType.Offroad) v = new Offroad();
         moneyOut(v.cost);  // pay for the vehicle
         out ("FNCD bought "+v.name+", a "+v.cleanliness+" "+v.condition+" "+v.type+" for "+Utility.asDollar(v.cost));
         textOut = textOut.concat("FNCD bought "+v.name+", a "+v.cleanliness+" "+v.condition+" "+v.type+" for "+Utility.asDollar(v.cost)+" \n");
