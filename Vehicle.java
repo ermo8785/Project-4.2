@@ -165,7 +165,7 @@ class MonsterTruck extends Vehicle{
 }
 
 class Luxury extends Vehicle {
-    static List<String>names = Arrays.asList("Mercedez, BMW, Acura, Roles Royce, Tesla");
+    static List<String>names = Arrays.asList("Mercedes", "BMW", "Acura", "Roles Royce", "Tesla");
     static Namer namer = new Namer(names);
 
     Luxury(){
@@ -181,7 +181,7 @@ class Luxury extends Vehicle {
 }
 
 class Offroad extends Vehicle {
-    static List<String>names = Arrays.asList("Mercedez, BMW, Acura, Roles Royce, Tesla");
+    static List<String>names = Arrays.asList("The Liberator", "The Roadie", "Roadhog", "Hogrider", "The Dirtier Car");
     static Namer namer = new Namer(names);
 
     Offroad(){
@@ -197,7 +197,7 @@ class Offroad extends Vehicle {
 }
 
 class Semi extends Vehicle {
-    static List<String>names = Arrays.asList("Mercedez, BMW, Acura, Roles Royce, Tesla");
+    static List<String>names = Arrays.asList("McLane", "LL Co.", "Lincoln", "HH Truck", "Hawke");
     static Namer namer = new Namer(names);
 
     Semi(){
