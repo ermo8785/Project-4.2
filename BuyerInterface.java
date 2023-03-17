@@ -45,6 +45,11 @@ class CarDetails{
     }
 }
 
+
+class BuyCar{
+    
+}
+
 class UserMenu implements SysOut {
     public void Menu(FNCD Choice){
         boolean Loop = true;

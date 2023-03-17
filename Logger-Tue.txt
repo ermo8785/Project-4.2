@@ -1,15 +1,15 @@
  The FNCD is opening... Day Tue 
-Hired a new Intern named Desi-15 
-FNCD bought Sudden Impact-3, a Dirty LikeNew MonsterTruck for $16,091.00 
-FNCD bought Mitsubishi-4, a Dirty Broken Motorcycle for $17,858.00 
+Hired a new Intern named Lucy-16 
+FNCD bought Escort-5, a Dirty Broken Car for $6,919.00 
+FNCD bought Cayman-6, a Clean LikeNew PerfCar for $32,097.00 
+FNCD bought Charger-4, a Clean Used ElectricCar for $24,452.00 
+FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-20, a Dirty Used Semi for $95,776.80 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 1 buyers today... 
-Salesperson Chandler has quit the FNCD 
-Intern Fred-14 has been promoted to a salesmen! 
-Intern Desi-14 has quit the FNCD 
-Vehicles in inventory 53 
-Vehicles sold count 26 
-Money in the budget $3,163,591.42 
+The FNCD has 4 buyers today... 
+Intern Desi-15 has quit the FNCD 
+Vehicles in inventory 51 
+Vehicles sold count 33 
+Money in the budget $6,943,084.08 
 That's it for the day. 

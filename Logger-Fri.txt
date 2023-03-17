@@ -1,15 +1,11 @@
  The FNCD is opening... Day Fri 
-Hired a new Intern named Desi-16 
-Hired a new Driver named Hunt-4 
-FNCD bought Ninja-4, a Dirty Used Motorcycle for $21,790.40 
-FNCD bought Harley Davidson-5, a Dirty LikeNew Motorcycle for $17,662.00 
-FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-19, a Clean Used Semi for $68,043.20 
+Hired a new Intern named Ethel-17 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 8 buyers today... 
-Intern Lucy-15 has quit the FNCD 
-Vehicles in inventory 48 
-Vehicles sold count 35 
-Money in the budget $5,837,990.37 
+The FNCD has 7 buyers today... 
+Intern Desi-16 has quit the FNCD 
+Vehicles in inventory 50 
+Vehicles sold count 38 
+Money in the budget $5,944,108.87 
 That's it for the day. 

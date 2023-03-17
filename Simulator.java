@@ -49,18 +49,18 @@ public class Simulator implements SysOut {
         while(UserIn){
             String Store = Choice.nextLine();
 
-            if(Store.toString() == "North"){
+            if(Store == "North"){
                 UserMenu FNCDChoice = new UserMenu();
                 FNCDChoice.Menu(North);
                 UserIn = false;
             }
-            else if (Store.toString() == "South"){
+            else if (Store == "South"){
                 UserMenu FNCDChoice = new UserMenu();
                 FNCDChoice.Menu(South);
                 UserIn = false;
             }
             else{
-                out("The entered text is oncorrect please make sure everything is typed correctly as shown.");
+                out("The entered text is incorrect please make sure everything is typed correctly as shown.");
             }
 
         }
