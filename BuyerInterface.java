@@ -7,7 +7,7 @@ interface BuyerInterface {
     String execute(FNCD Choice);
 }
 
-class SalespersonName implements BuyerInterface{ //Needs work!!!
+class SalespersonName implements BuyerInterface{ 
         public String execute(FNCD Choice){
             ArrayList <Staff> salespeople = Staff.getStaffByType(Choice.staff, Enums.StaffType.Salesperson); //Fills Array list with salespeople 
             int index_sales = Utility.rndFromRange(0,2); //Sets an index within the range 
