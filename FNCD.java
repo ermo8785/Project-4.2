@@ -163,6 +163,10 @@ public class FNCD implements SysOut {
         }
     }
 
+    void RemoveCar(Staff Name){
+        staff.remove(Name);
+    }
+
     // adding staff
     // smells like we need a factory or something...
     void addStaff(Enums.StaffType t) {
