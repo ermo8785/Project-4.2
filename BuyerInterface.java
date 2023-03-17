@@ -9,7 +9,7 @@ interface BuyerInterface {
 
 class SalespersonName implements BuyerInterface{ //Needs work!!!
         public String execute(FNCD Choice){
-            ArrayList <Staff> salespeople = Staff.getStaffByType(Staff, Enums.StaffType.Salesperson); //Fills Array list with salespeople 
+            ArrayList <Staff> salespeople = Staff.getStaffByType(Choice.staff, Enums.StaffType.Salesperson); //Fills Array list with salespeople 
             int index_sales = Utility.rndFromRange(0,2); //Sets an index within the range 
             Salesperson SalesName = (Salesperson) salespeople.get(index_sales); //Sets the name of the salesmen whos wuitting 
             return ("The name of the salesperson helping you is " + SalesName);
@@ -34,6 +34,17 @@ class CurrentInventory implements BuyerInterface{
     }
 }
 
+class CarDetails{
+    StringBuilder Details = new StringBuilder();
+    public String execute(FNCD Choice, Vehicle CarChoice){
+        Details.append(CarChoice.type).append("\n");
+        Details.append(CarChoice.cleanliness).append("\n");
+        Details.append(CarChoice.condition).append("\n");
+        Details.append(CarChoice.cost).append("\n");
+        return Details.toString();
+    }
+}
+
 class UserMenu implements SysOut {
     public void Menu(FNCD Choice){
         boolean Loop = true;
@@ -44,12 +55,12 @@ class UserMenu implements SysOut {
             out("Enter '1' if you wish to ask the salesperson their name.");  
             out("Enter '2' if you wish to ask the salesperson the time.");  
             out("Enter '3' if you wish to have a new salesperson help you."); 
-            out("Enter '4' if you wish to ask for the invetory.");  
-            out("Enter '5' if you wish to leave the FNCD.");
-
+            out("Enter '4' if you wish to ask for the invetory."); 
+            out("Enter '5' if you wish to see the detials for a user Selected Item.");
+            out("Enter '6' if you wish to buy to a car."); 
+            out("Enter '7' if you wish to leave the FNCD.");
 
             int Decision = Integer.parseInt(UserInput.nextLine());
-    
 
             if(Decision == 1){ //First Option a customer can choose
                 out("The current salesperson you're talking to is " + Name);
@@ -71,13 +82,21 @@ class UserMenu implements SysOut {
                 out("The current inventory of this FNCD location is ");
                 out(Display.execute(Choice));
             }
+
             /*
-            else if (Decision == 5){
+            else if(Decision == 5){
+                Vehicle UserCar;
+                CarDetails ShowCar = new CarDetails();
+                out("The Details on the chosen car are");
+                out(ShowCar.execute(Choice,UserCar));
+            }
+            
+            else if (Decision == 6){
                 //Buy the car function goes here
             }
             */
     
-            else if(Decision == 5) {
+            else if(Decision == 7) {
                 out("Thank you! Have a great rest of your day!");
                 Loop = false;
             }
@@ -89,5 +108,5 @@ class UserMenu implements SysOut {
 
         UserInput.close();
     }
-
 }
+
