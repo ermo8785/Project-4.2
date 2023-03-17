@@ -25,20 +25,46 @@ class Time implements BuyerInterface {
 }
 
 class CurrentInventory implements BuyerInterface{
-    ArrayList<Vehicle> vehicleInventory = new ArrayList<>();
+    public ArrayList<Vehicle> vehicleInventory = new ArrayList<>();
+    public ArrayList<String> StringInventory = new ArrayList<>();
     StringBuilder CarInventory = new StringBuilder();
     public String execute(FNCD Choice){
         for (Vehicle i: Choice.inventory){
             CarInventory.append(i).append("\n");
             vehicleInventory.add(i);
+            StringInventory.add(i.toString());
         }
         return CarInventory.toString();
     }
 
-    public void ScanCar() {
-        Vehicle Car;
-        System.out.println("Here's the list of this FNCD's inventory. Enter the name of the vehicle to see its details.");
-        Scanner CarInput = new Scanner(System.in);
+    public Vehicle selectedCar() {
+        Vehicle V;
+        String S;
+        while (true){
+            System.out.println("Here's the list of this FNCD's inventory. Enter the name of the vehicle to see its details. Or enter 0 to quit.");
+            Scanner CarInput = new Scanner(System.in);
+            String Car = CarInput.nextLine();
+            if(Car.equals("0")){
+                break;
+            }
+            else if(StringInventory.contains(Car)){
+                for (int i = 0; i < StringInventory.size(); i++){
+                    S = StringInventory.get(i);
+                    V = vehicleInventory.get(i);
+                    if(S == V.toString()){
+                        CarInput.close();
+                        V = vehicleInventory.get(i);
+                        return V;
+                    }
+                }
+            }
+            else {
+                CarInput.close();
+                System.out.println("The car you are looking for is not here please make sure the name is typed correctly.");
+            }
+        }
+        V = vehicleInventory.get(0);
+        return V; 
     }
 }
 class CarDetails{
@@ -93,6 +119,7 @@ class UserMenu implements SysOut {
                 CurrentInventory Display = new CurrentInventory();
                 out("The current inventory of this FNCD location is ");
                 out(Display.execute(Choice));
+                Display.selectedCar();
             }
 
             /*
