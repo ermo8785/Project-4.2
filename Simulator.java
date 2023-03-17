@@ -1,8 +1,11 @@
 // Simulator to cycle for select number of days
+import java.util.ArrayList;
 import java.util.Scanner;
 
 //import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class Simulator implements SysOut {
+    ArrayList <String> Stores = new ArrayList<>();
+    ArrayList <FNCD> StoreFNCD = new ArrayList<>();
     final int numDays;
     Enums.DayOfWeek dayOfWeek;
     Simulator() {
@@ -24,6 +27,8 @@ public class Simulator implements SysOut {
     void run() {
         FNCD North = new FNCD();
         FNCD South = new FNCD();
+        Stores.add("North");
+        Stores.add("South");
         for (int day = 1; day <= numDays; ++day) {
             //North FNCD 
             out(">>> Start Simulation Day for FNCD North "+day+" "+dayOfWeek);
@@ -52,7 +57,7 @@ public class Simulator implements SysOut {
             if(Store == "North"){
                 UserMenu FNCDChoice = new UserMenu();
                 FNCDChoice.Menu(North);
-                UserIn = false;
+                UserIn = false; 
             }
             else if (Store == "South"){
                 UserMenu FNCDChoice = new UserMenu();
@@ -61,6 +66,11 @@ public class Simulator implements SysOut {
             }
             else{
                 out("The entered text is incorrect please make sure everything is typed correctly as shown.");
+                int count = 0;
+                count += 1;
+                if (count == 3){
+                    UserIn = false;
+                }
             }
 
         }

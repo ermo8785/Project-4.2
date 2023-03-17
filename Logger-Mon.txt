@@ -1,16 +1,13 @@
  The FNCD is opening... Day Mon 
-Hired a new Intern named Fred-16 
-Hired a new Intern named Ethel-16 
-FNCD bought Europa-6, a Clean Used PerfCar for $19,499.20 
-FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-19, a Clean LikeNew Semi for $157,929.00 
-FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-18, a Dirty Broken Offroad for $28,273.00 
-FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-22, a Clean Used Luxury for $31,176.00 
+Hired a new Intern named Desi-18 
+FNCD bought F-250-6, a Clean Used Pickup for $13,443.20 
+FNCD bought Mercedez, BMW, Acura, Roles Royce, Tesla-20, a Dirty Broken Luxury for $37,252.50 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 1 buyers today... 
-Intern Fred-15 has quit the FNCD 
-Vehicles in inventory 54 
-Vehicles sold count 34 
-Money in the budget $5,054,255.03 
+The FNCD has 3 buyers today... 
+Intern Desi-18 has quit the FNCD 
+Vehicles in inventory 52 
+Vehicles sold count 39 
+Money in the budget $7,261,087.62 
 That's it for the day. 
