@@ -60,13 +60,29 @@ public class Tests{
 
     }
     // 6
-
+    @Test
+    public void singletonTrackerTest(){
+        Tracker instanceOne = Tracker.getInstance("");
+        Tracker instanceTwo = Tracker.getInstance("");
+        Assert.assertSame("Passed: two selected objects are the same => Singleton", instanceOne, instanceTwo);
+    }
     // 7
-
+    @Test
+    public void vehicleArrayTest(){
+        FNCD testFNCD = new FNCD();
+        for(Vehicle v : testFNCD.inventory){
+            assert v instanceof Vehicle;
+        }
+    }
     // 8
-
+    @Test public void staffArrayTest(){
+        FNCD testFNCD = new FNCD();
+        for(Staff s : testFNCD.staff){
+            assert s instanceof Staff;
+        }
+    }
     // 9
-
+    
     // 10
 
     // 11
