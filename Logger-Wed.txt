@@ -1,24 +1,22 @@
  The FNCD is opening... Day Mon 
-Hired a new Intern named Fred-21 
-FNCD bought Avenger-5, a Dirty LikeNew MonsterTruck for $19,213.00 
-FNCD bought Mitsubishi-6, a Clean Broken Motorcycle for $17,485.00 
-FNCD bought Tesla-6, a Clean Broken Luxury for $30,140.50 
+Hired a new Intern named Lucy-19 
+FNCD bought War Wizard-5, a Dirty Broken MonsterTruck for $8,557.00 
+FNCD bought Acura-5, a Dirty LikeNew Luxury for $54,757.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 0 buyers today... 
-Salesperson Fred-2 has quit the FNCD 
-Intern Lucy-20 has been promoted to a salesmen! 
-Intern Desi-16 has quit the FNCD 
-Vehicles in inventory 54 
-Vehicles sold count 43 
-Money in the budget $8,926,985.85 
+The FNCD has 3 buyers today... 
+Intern Fred-19 has quit the FNCD 
+Vehicles in inventory 52 
+Vehicles sold count 25 
+Money in the budget $4,409,672.37 
 That's it for the day. 
-Hired a new Intern named Lucy-21 
-Hired a new Intern named Desi-21 
-The FNCD is looking to prepare for a race...Today's race features vehicles of type MonsterTruckIntern Fred-21 has quit the FNCD 
-Driver: Eric-5 has left the FNCD due to injury 
-Vehicles in inventory 54 
-Vehicles sold count 43 
-Money in the budget $8,925,275.85 
+Hired a new Intern named Fred-20 
+The FNCD is looking to prepare for a race...Today's race features vehicles of type MonsterTruckSalesperson Chandler has quit the FNCD 
+Intern Ethel-15 has been promoted to a salesmen! 
+Intern Lucy-19 has quit the FNCD 
+Driver: Laura-3 has left the FNCD due to injury 
+Vehicles in inventory 52 
+Vehicles sold count 25 
+Money in the budget $4,407,962.37 
 That's it for the day. 

@@ -4,23 +4,23 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 interface BuyerInterface {
-    void execute(FNCD Choice);
+    String execute(FNCD Choice);
 }
 
 class SalespersonName implements BuyerInterface, SysOut{ 
-        public void execute(FNCD Choice){
+        public String execute(FNCD Choice){
             ArrayList <Staff> salespeople = Staff.getStaffByType(Choice.staff, Enums.StaffType.Salesperson); //Fills Array list with salespeople 
             int index_sales = Utility.rndFromRange(0,2); //Sets an index within the range 
-            String salesName = salespeople.get(index_sales).name; //Sets the name of the salesmen whos wuitting 
-            out("The name of the salesperson helping you is " + salesName);
+            Staff salesName = salespeople.get(index_sales); //Sets the name of the salesmen whos helping the user
+            return(salesName.name);
         }
 }
 
 class Time implements BuyerInterface, SysOut {
-    public void execute(FNCD Choice){
+    public String execute(FNCD Choice){
         DateTimeFormatter Format = DateTimeFormatter.ofPattern("HH:MM:SS");
         LocalDateTime CurrentTime = LocalDateTime.now();
-        out("The current time is " + Format.format(CurrentTime));
+        return(Format.format(CurrentTime));
     }
 }
 
@@ -28,28 +28,32 @@ class CurrentInventory implements BuyerInterface, SysOut{
     public ArrayList<Vehicle> vehicleInventory = new ArrayList<>();
     public ArrayList<String> StringInventory = new ArrayList<>();
     StringBuilder CarInventory = new StringBuilder();
-    public void execute(FNCD Choice){
+    public String execute(FNCD Choice){
         for (Vehicle i: Choice.inventory){
-            CarInventory.append(i.name);
+            CarInventory.append(i.name + "\n");
             vehicleInventory.add(i);
             StringInventory.add(i.name);
         }
+        /*
         for(int i = 0; i < StringInventory.size(); i++){
             out(StringInventory.get(i));
         }
         //out(CarInventory.toString());
+        */
+        return CarInventory.toString();
+
     }
 
     public void selectedCar() {
         boolean carFound = true;
-        while (carFound == true){
+        Scanner CarInput = new Scanner(System.in);
+        while (CarInput.hasNext() & carFound){
             System.out.println("Here's the list of this FNCD's inventory. Enter the name of the vehicle to see its details. Or enter 0 to quit.");
-            Scanner CarInput = new Scanner(System.in);
             String Car = CarInput.nextLine();
             if(Car.equals("0")){
                 break;
             }
-            else if(Car != "0"){
+            else if(Car != "0" & vehicleInventory.contains(Car)){
                 for(int i = 0; i < vehicleInventory.size(); i++){
                     if(Car.equalsIgnoreCase(vehicleInventory.get(i).name)){
                         out("Here are the details for the selected car:");
@@ -57,7 +61,6 @@ class CurrentInventory implements BuyerInterface, SysOut{
                         out("Condition: " + vehicleInventory.get(i).condition.toString());
                         out("Price: " + vehicleInventory.get(i).price.toString());
                         out("Type: " + vehicleInventory.get(i).type.toString());
-                        CarInput.close();
                         carFound = false;
                         break;
                     }
@@ -68,6 +71,7 @@ class CurrentInventory implements BuyerInterface, SysOut{
                 System.out.println("The car you are looking for is not here please make sure the name is typed correctly.");
             }
         }
+        CarInput.close();
     }
 }
 class CarDetails implements SysOut{
@@ -104,11 +108,12 @@ class UserMenu implements SysOut {
             int Decision = Integer.parseInt(UserInput.nextLine());
 
             if(Decision == 1){ //First Option a customer can choose
-                out("The current salesperson you're talking to is " + Name);
+                SalespersonName NewName = new SalespersonName();
+                out("The current salesperson you're talking to is " + NewName.execute(Choice));
             }
             else if (Decision == 2){
                 Time TimeAtMomement = new Time();
-                out("The current time is " + TimeAtMomement);
+                out("The current time is " + TimeAtMomement.execute(Choice));
             } 
             else if (Decision == 3){
                 SalespersonName NewName = new SalespersonName();
@@ -121,7 +126,7 @@ class UserMenu implements SysOut {
             else if (Decision == 4){
                 CurrentInventory Display = new CurrentInventory();
                 out("The current inventory of this FNCD location is ");
-                Display.execute(Choice);
+                out(Display.execute(Choice) + "\n");
                 Display.selectedCar();
             }
 
