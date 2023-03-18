@@ -34,7 +34,7 @@ public class Simulator implements SysOut {
             out(">>> Start Simulation Day for FNCD North "+day+" "+dayOfWeek);
             if (dayOfWeek == Enums.DayOfWeek.Sun || dayOfWeek == Enums.DayOfWeek.Wed) North.raceDay(dayOfWeek);  // race days wed and sun
             else North.normalDay(dayOfWeek);  // normal stuff on other days
-            out(">>> End Simulation Day for FNCD North"+day+" "+dayOfWeek+"\n");
+            out(">>> End Simulation Day for FNCD North "+day+" "+dayOfWeek+"\n");
             dayOfWeek = getNextDay(dayOfWeek);  // increment to the next day
 
             out("\n");
@@ -42,7 +42,7 @@ public class Simulator implements SysOut {
             out(">>> Start Simulation Day for FNCD South "+day+" "+dayOfWeek);
             if (dayOfWeek == Enums.DayOfWeek.Sun || dayOfWeek == Enums.DayOfWeek.Wed) South.raceDay(dayOfWeek);  // race days wed and sun
             else South.normalDay(dayOfWeek);  // normal stuff on other days
-            out(">>> End Simulation Day for FNCD South"+day+" "+dayOfWeek+"\n");
+            out(">>> End Simulation Day for FNCD South "+day+" "+dayOfWeek+"\n");
             dayOfWeek = getNextDay(dayOfWeek);  // increment to the next day
         }
 

@@ -8560,3 +8560,5 @@ Mar 17, 2023 10:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 2285
 2023.03.17 22:34:56 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
 2023.03.17 22:35:16 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 22:38:27 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 22:38:31 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java

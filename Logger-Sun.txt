@@ -1,20 +1,19 @@
  The FNCD is opening... Day Fri 
-Hired a new Intern named Ethel-19 
-Hired a new Driver named Laura-4 
+Hired a new Intern named Desi-18 
+Hired a new Driver named Luke-4 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 7 buyers today... 
-Intern Ethel-19 has quit the FNCD 
-Driver: Lucy-14 has left the FNCD due to injury 
-Vehicles in inventory 51 
+The FNCD has 8 buyers today... 
+Intern Fred-17 has quit the FNCD 
+Vehicles in inventory 52 
 Vehicles sold count 24 
-Money in the budget $4,097,176.38 
+Money in the budget $3,901,608.59 
 That's it for the day. 
-Hired a new Intern named Desi-19 
-Hired a new Driver named Chad-4 
-The FNCD is looking to prepare for a race...Today's race features vehicles of type PerfCarIntern Desi-17 has quit the FNCD 
-Vehicles in inventory 51 
+Hired a new Intern named Ethel-19 
+The FNCD is looking to prepare for a race...Today's race features vehicles of type MotorcycleIntern Ethel-19 has quit the FNCD 
+Driver: Ethel-18 has left the FNCD due to injury 
+Vehicles in inventory 52 
 Vehicles sold count 24 
-Money in the budget $4,095,466.38 
+Money in the budget $3,899,898.59 
 That's it for the day. 

@@ -1,14 +1,17 @@
  The FNCD is opening... Day Mon 
-Hired a new Intern named Fred-20 
-FNCD bought Fiesta-5, a Dirty Broken Car for $9,354.50 
-FNCD bought Zombie-6, a Clean LikeNew MonsterTruck for $19,639.00 
-FNCD bought LL Co.-5, a Clean LikeNew Semi for $106,300.00 
+Hired a new Intern named Lucy-19 
+FNCD bought Fiesta-6, a Clean Broken Car for $9,037.00 
+FNCD bought Cayman-6, a Dirty LikeNew PerfCar for $28,166.00 
+FNCD bought Grave Digger-6, a Clean Used MonsterTruck for $20,241.60 
+FNCD bought Zombie-6, a Dirty Used MonsterTruck for $29,955.20 
+FNCD bought War Wizard-6, a Dirty Used MonsterTruck for $24,456.00 
+FNCD bought Mitsubishi-5, a Dirty LikeNew Motorcycle for $14,349.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 0 buyers today... 
-Intern Lucy-19 has quit the FNCD 
+The FNCD has 1 buyers today... 
+Intern Lucy-18 has quit the FNCD 
 Vehicles in inventory 54 
-Vehicles sold count 35 
-Money in the budget $5,277,921.54 
+Vehicles sold count 30 
+Money in the budget $4,640,921.77 
 That's it for the day. 
