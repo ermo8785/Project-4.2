@@ -1,12 +1,14 @@
  The FNCD is opening... Day Mon 
-Hired a new Intern named Fred-21 
-FNCD bought BMW-6, a Dirty LikeNew Luxury for $66,635.00 
+Hired a new Intern named Fred-20 
+FNCD bought Fiesta-5, a Dirty Broken Car for $9,354.50 
+FNCD bought Zombie-6, a Clean LikeNew MonsterTruck for $19,639.00 
+FNCD bought LL Co.-5, a Clean LikeNew Semi for $106,300.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
 The FNCD has 0 buyers today... 
-Intern Fred-20 has quit the FNCD 
+Intern Lucy-19 has quit the FNCD 
 Vehicles in inventory 54 
-Vehicles sold count 38 
-Money in the budget $7,316,926.89 
+Vehicles sold count 35 
+Money in the budget $5,277,921.54 
 That's it for the day. 

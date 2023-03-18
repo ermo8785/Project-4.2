@@ -1,20 +1,21 @@
  The FNCD is opening... Day Mon 
-Hired a new Intern named Ethel-19 
-FNCD bought Cayman-7, a Dirty Used PerfCar for $26,643.20 
-FNCD bought F-250-8, a Sparkling Broken Pickup for $14,876.00 
-FNCD bought Ninja-4, a Dirty Used Motorcycle for $14,883.20 
+Hired a new Intern named Fred-20 
+FNCD bought Fiesta-5, a Dirty Broken Car for $9,354.50 
+FNCD bought Zombie-6, a Clean LikeNew MonsterTruck for $19,639.00 
+FNCD bought LL Co.-5, a Clean LikeNew Semi for $106,300.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 1 buyers today... 
-Intern Ethel-19 has quit the FNCD 
+The FNCD has 0 buyers today... 
+Intern Lucy-19 has quit the FNCD 
 Vehicles in inventory 54 
-Vehicles sold count 36 
-Money in the budget $4,362,136.04 
+Vehicles sold count 35 
+Money in the budget $5,277,921.54 
 That's it for the day. 
-Hired a new Intern named Desi-19 
-The FNCD is looking to prepare for a race...Today's race features vehicles of type MonsterTruckIntern Ethel-17 has quit the FNCD 
+Hired a new Intern named Lucy-20 
+The FNCD is looking to prepare for a race...Today's race features vehicles of type PerfCarIntern Fred-20 has quit the FNCD 
+Driver: Luke-4 has left the FNCD due to injury 
 Vehicles in inventory 54 
-Vehicles sold count 36 
-Money in the budget $4,360,426.04 
+Vehicles sold count 35 
+Money in the budget $5,276,211.54 
 That's it for the day. 

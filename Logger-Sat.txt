@@ -1,16 +1,11 @@
  The FNCD is opening... Day Sat 
-Hired a new Intern named Lucy-20 
-FNCD bought Sorrento-5, a Dirty LikeNew ElectricCar for $22,111.00 
-FNCD bought Lincoln-6, a Clean Used Semi for $135,938.40 
-FNCD bought The Dirtier Car-6, a Clean LikeNew Offroad for $26,798.00 
+Hired a new Intern named Lucy-19 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 2 buyers today... 
-Salesperson Joey has quit the FNCD 
-Intern Lucy-19 has been promoted to a salesmen! 
-Intern Lucy-19 has quit the FNCD 
-Vehicles in inventory 53 
-Vehicles sold count 38 
-Money in the budget $7,385,271.89 
+The FNCD has 5 buyers today... 
+Intern Lucy-17 has quit the FNCD 
+Vehicles in inventory 51 
+Vehicles sold count 35 
+Money in the budget $5,414,925.04 
 That's it for the day. 

@@ -1,12 +1,14 @@
  The FNCD is opening... Day Tue 
-Hired a new Intern named Lucy-19 
-FNCD bought Mercedes-6, a Dirty LikeNew Luxury for $38,065.00 
+Hired a new Intern named Ethel-20 
+FNCD bought Mustang-6, a Clean Used PerfCar for $27,236.00 
+FNCD bought Europa-7, a Clean Broken PerfCar for $13,011.50 
+FNCD bought War Wizard-6, a Clean Broken MonsterTruck for $12,048.50 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 4 buyers today... 
-Intern Fred-18 has quit the FNCD 
-Vehicles in inventory 52 
-Vehicles sold count 34 
-Money in the budget $5,976,194.56 
+The FNCD has 2 buyers today... 
+Intern Ethel-17 has quit the FNCD 
+Vehicles in inventory 53 
+Vehicles sold count 25 
+Money in the budget $4,182,814.88 
 That's it for the day. 
