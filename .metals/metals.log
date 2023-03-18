@@ -7356,3 +7356,4 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.03.17 16:44:27 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
 Mar 17, 2023 4:44:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.03.17 18:53:49 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
