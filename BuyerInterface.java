@@ -57,6 +57,7 @@ class CurrentInventory implements BuyerInterface{
                         return V;
                     }
                 }
+                break;
             }
             else {
                 CarInput.close();
