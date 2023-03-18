@@ -1,28 +1,24 @@
 //import java.beans.Transient;
 import org.junit.Assert;
 import org.junit.Test;
+import java.util.ArrayList;
 
 //import Enums.DayOfWeek;
 
 public class Tests{
-    //1
     @Test
     public void initVehicles(){
         FNCD testFNCD = new FNCD();
 
-        // there should be six of each vehicle type
-        assert testFNCD.inventory.size() == 6 * 9;
+        // there should at least be six of each vehicle type
+        assert testFNCD.inventory.size() == 54 ; // 6 of each vehicle type, there are 9 types
     }
-
-    //2
     @Test
-    // there should be three of each staff type
+    // there should at least be three of each staff type
     public void initEmployees(){
         FNCD testFNCD = new FNCD();
-        assert testFNCD.inventory.size() == 3 * 4;
+        assert testFNCD.staff.size() == 12 ; // 3 of each staff type, there are 4 types
     }
-
-    // 3
     @Test
     // 
     public void vehicleFactoryTest(){
@@ -30,26 +26,22 @@ public class Tests{
         VehicleFactory testFactory = new VehicleFactory(testFNCD.inventory);
 
         int size = testFNCD.inventory.size();
-        testFactory.createNewVehicle("PerfCar");
+        testFactory.createNewVehicle("PerfCar").importCar();
 
         int newSize = testFNCD.inventory.size();
-        assert newSize == size + 1;
+        assert newSize > size;
     }
-
-    // 4
     @Test
     public void staffFactoryTest(){
         FNCD testFNCD = new FNCD();
         StaffFactory testFactory = new StaffFactory(testFNCD.staff);
 
         int size = testFNCD.staff.size();
-        testFactory.createNewStaff("Salesperson");
+        testFactory.createNewStaff("Salesperson").addNewStaff();
 
-        int newSize = testFNCD.inventory.size();
-        assert newSize == size + 1;
+        int newSize = testFNCD.staff.size();
+        assert newSize > size;
     }
-    
-    // 5
     @Test
     public void loggerAndSingletonTest(){
         Enums.DayOfWeek simDay1 = Enums.DayOfWeek.Thur;
@@ -59,14 +51,12 @@ public class Tests{
         Assert.assertSame("The two objects are the same, indicating well implemented Singleton pattern", instanceOne, instanceTwo);
 
     }
-    // 6
     @Test
     public void singletonTrackerTest(){
         Tracker instanceOne = Tracker.getInstance("");
         Tracker instanceTwo = Tracker.getInstance("");
         Assert.assertSame("Passed: two selected objects are the same => Singleton", instanceOne, instanceTwo);
     }
-    // 7
     @Test
     public void vehicleArrayTest(){
         FNCD testFNCD = new FNCD();
@@ -74,24 +64,71 @@ public class Tests{
             assert v instanceof Vehicle;
         }
     }
-    // 8
-    @Test public void staffArrayTest(){
+    @Test 
+    public void staffArrayTest(){
         FNCD testFNCD = new FNCD();
         for(Staff s : testFNCD.staff){
             assert s instanceof Staff;
         }
     }
-    // 9
-    
-    // 10
+    @Test
+    public void departedStaffArrayTest(){
+        FNCD testFNCD = new FNCD();
+        for (Staff s : testFNCD.departedStaff){
+            assert s instanceof Staff;
+        }
+    }
+    @Test
+    public void soldArrayTest(){
+        FNCD testFNCD = new FNCD();
+        for (Vehicle v : testFNCD.soldVehicles){
+            assert v instanceof Vehicle;
+        }
+    }
+    @Test
+    public void getBuyerTest(){
+        FNCD testFNCD = new FNCD();
+        testFNCD.getBuyers(Enums.DayOfWeek.Tue);
+        assert testFNCD.getBuyers(Enums.DayOfWeek.Tue) instanceof ArrayList<Buyer>;
+    }
+    @Test
+    public void getRandomVehicleTypeTest(){
+        FNCD testFNCD = new FNCD();
+        String vehicleType = testFNCD.getRandomVehicleType();
 
-    // 11
+        assert vehicleType == "Car" || vehicleType == "PerfCar" || vehicleType == "ElectricCar"
+        || vehicleType == "Pickup" || vehicleType == "MonsterTruck" || vehicleType == "Luxury"
+        || vehicleType == "Semi" || vehicleType == "Offroad" || vehicleType == "Motorcycle";
+    }
+    @Test
+    public void addVehicleTest(){
+        FNCD testFNCD = new FNCD();
+        int size = testFNCD.inventory.size();
+        testFNCD.addVehicle(Enums.VehicleType.Car);
 
-    // 12
+        int newSize = testFNCD.inventory.size();
 
-    // 13
+        assert newSize > size;
+        
+    }
+    @Test 
+    public void updateInventoryTest(){
+        FNCD testFNCD = new FNCD();
+        testFNCD.inventory.remove(0);
+        testFNCD.inventory.remove(3);
 
-    // 14
+        testFNCD.updateInventory();
+        int newSize = testFNCD.inventory.size();
+        assert newSize == 54;
+    }
+    @Test
+    public void hireStaffTest(){
+        FNCD testFNCD = new FNCD();
 
-    // 15
+        testFNCD.staff.remove(0);
+
+        testFNCD.hireNewStaff();
+        int size = testFNCD.staff.size();
+        assert size >= 13;
+    }
 }

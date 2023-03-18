@@ -9,7 +9,7 @@ public abstract class Vehicle {
     Enums.Condition condition;
     Enums.Cleanliness cleanliness;
     double cost;
-    double price;
+    Double price;
     double repair_bonus;
     double wash_bonus;
     double sale_bonus;
