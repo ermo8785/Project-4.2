@@ -1,12 +1,14 @@
  The FNCD is opening... Day Fri 
-Hired a new Intern named Lucy-20 
-Hired a new Driver named Laura-4 
+Hired a new Intern named Ethel-20 
+FNCD bought Sudden Impact-4, a Clean Broken MonsterTruck for $17,691.00 
+FNCD bought Lincoln-6, a Clean LikeNew Semi for $146,244.00 
+FNCD bought The Dirtier Car-5, a Dirty LikeNew Offroad for $30,350.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 2 buyers today... 
-Intern Desi-17 has quit the FNCD 
-Vehicles in inventory 54 
-Vehicles sold count 30 
-Money in the budget $4,637,501.77 
+The FNCD has 8 buyers today... 
+Intern Desi-19 has quit the FNCD 
+Vehicles in inventory 51 
+Vehicles sold count 38 
+Money in the budget $7,204,589.85 
 That's it for the day. 
