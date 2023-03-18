@@ -1,14 +1,11 @@
  The FNCD is opening... Day Fri 
-Hired a new Intern named Fred-19 
-Hired a new Driver named Laura-3 
-FNCD bought War Wizard-4, a Clean Used MonsterTruck for $21,370.40 
-FNCD bought McLane-5, a Clean LikeNew Semi for $91,643.00 
+Hired a new Intern named Ethel-20 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 6 buyers today... 
-Intern Ethel-17 has quit the FNCD 
-Vehicles in inventory 51 
-Vehicles sold count 49 
-Money in the budget $7,019,896.46 
+The FNCD has 8 buyers today... 
+Intern Ethel-18 has quit the FNCD 
+Vehicles in inventory 50 
+Vehicles sold count 40 
+Money in the budget $5,471,716.63 
 That's it for the day. 

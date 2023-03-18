@@ -4,40 +4,40 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 interface BuyerInterface {
-    String execute(FNCD Choice);
+    void execute(FNCD Choice);
 }
 
-class SalespersonName implements BuyerInterface{ 
-        public String execute(FNCD Choice){
+class SalespersonName implements BuyerInterface, SysOut{ 
+        public void execute(FNCD Choice){
             ArrayList <Staff> salespeople = Staff.getStaffByType(Choice.staff, Enums.StaffType.Salesperson); //Fills Array list with salespeople 
             int index_sales = Utility.rndFromRange(0,2); //Sets an index within the range 
             Salesperson SalesName = (Salesperson) salespeople.get(index_sales); //Sets the name of the salesmen whos wuitting 
-            return ("The name of the salesperson helping you is " + SalesName);
+            out("The name of the salesperson helping you is " + SalesName);
         }
 }
 
-class Time implements BuyerInterface {
-    public String execute(FNCD Choice){
+class Time implements BuyerInterface, SysOut {
+    public void execute(FNCD Choice){
         DateTimeFormatter Format = DateTimeFormatter.ofPattern("HH:MM:SS");
         LocalDateTime CurrentTime = LocalDateTime.now();
-        return ("The current time is " + Format.format(CurrentTime));
+        out("The current time is " + Format.format(CurrentTime));
     }
 }
 
-class CurrentInventory implements BuyerInterface{
+class CurrentInventory implements BuyerInterface, SysOut{
     public ArrayList<Vehicle> vehicleInventory = new ArrayList<>();
     public ArrayList<String> StringInventory = new ArrayList<>();
     StringBuilder CarInventory = new StringBuilder();
-    public String execute(FNCD Choice){
+    public void execute(FNCD Choice){
         for (Vehicle i: Choice.inventory){
             CarInventory.append(i).append("\n");
             vehicleInventory.add(i);
             StringInventory.add(i.toString());
         }
-        return CarInventory.toString();
+        out(CarInventory.toString());
     }
 
-    public Vehicle selectedCar() {
+    public void selectedCar() {
         Vehicle V;
         String S;
         while (true){
@@ -54,7 +54,11 @@ class CurrentInventory implements BuyerInterface{
                     if(S == V.toString()){
                         CarInput.close();
                         V = vehicleInventory.get(i);
-                        return V;
+                        out("Here are the details for the selected car:");
+                        out(vehicleInventory.get(i).cleanliness.toString());
+                        out(vehicleInventory.get(i).condition.toString());
+                        out(vehicleInventory.get(i).price.toString());
+                        out(vehicleInventory.get(i).type.toString());
                     }
                 }
             }
@@ -64,17 +68,16 @@ class CurrentInventory implements BuyerInterface{
             }
         }
         V = vehicleInventory.get(0);
-        return V; 
     }
 }
-class CarDetails{
+class CarDetails implements SysOut{
     StringBuilder Details = new StringBuilder();
-    public String execute(FNCD Choice, Vehicle CarChoice){
+    public void execute(FNCD Choice, Vehicle CarChoice){
         Details.append(CarChoice.type).append("\n");
         Details.append(CarChoice.cleanliness).append("\n");
         Details.append(CarChoice.condition).append("\n");
         Details.append(CarChoice.cost).append("\n");
-        return Details.toString();
+        out(Details.toString());
     }
 }
 
@@ -118,7 +121,7 @@ class UserMenu implements SysOut {
             else if (Decision == 4){
                 CurrentInventory Display = new CurrentInventory();
                 out("The current inventory of this FNCD location is ");
-                out(Display.execute(Choice));
+                Display.execute(Choice);
                 Display.selectedCar();
             }
 

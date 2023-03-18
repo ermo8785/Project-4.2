@@ -1,15 +1,16 @@
  The FNCD is opening... Day Sat 
-Hired a new Intern named Ethel-17 
-FNCD bought Suzuki-4, a Clean Used Motorcycle for $30,176.00 
-FNCD bought Lincoln-4, a Clean Used Semi for $114,408.80 
-FNCD bought The Roadie-4, a Dirty LikeNew Offroad for $59,435.00 
-FNCD bought Tesla-4, a Dirty Broken Luxury for $30,400.50 
+Hired a new Intern named Lucy-20 
+FNCD bought Sorrento-5, a Dirty LikeNew ElectricCar for $22,111.00 
+FNCD bought Lincoln-6, a Clean Used Semi for $135,938.40 
+FNCD bought The Dirtier Car-6, a Clean LikeNew Offroad for $26,798.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 7 buyers today... 
-Intern Desi-16 has quit the FNCD 
-Vehicles in inventory 50 
-Vehicles sold count 44 
-Money in the budget $6,137,945.67 
+The FNCD has 2 buyers today... 
+Salesperson Joey has quit the FNCD 
+Intern Lucy-19 has been promoted to a salesmen! 
+Intern Lucy-19 has quit the FNCD 
+Vehicles in inventory 53 
+Vehicles sold count 38 
+Money in the budget $7,385,271.89 
 That's it for the day. 

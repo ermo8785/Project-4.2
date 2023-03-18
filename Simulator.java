@@ -34,7 +34,7 @@ public class Simulator implements SysOut {
             out(">>> Start Simulation Day for FNCD North "+day+" "+dayOfWeek);
             if (dayOfWeek == Enums.DayOfWeek.Sun || dayOfWeek == Enums.DayOfWeek.Wed) North.raceDay(dayOfWeek);  // race days wed and sun
             else North.normalDay(dayOfWeek);  // normal stuff on other days
-            out(">>> End Simulation Day "+day+" "+dayOfWeek+"\n");
+            out(">>> End Simulation Day for FNCD North"+day+" "+dayOfWeek+"\n");
             dayOfWeek = getNextDay(dayOfWeek);  // increment to the next day
 
             out("\n");
@@ -42,24 +42,23 @@ public class Simulator implements SysOut {
             out(">>> Start Simulation Day for FNCD South "+day+" "+dayOfWeek);
             if (dayOfWeek == Enums.DayOfWeek.Sun || dayOfWeek == Enums.DayOfWeek.Wed) South.raceDay(dayOfWeek);  // race days wed and sun
             else South.normalDay(dayOfWeek);  // normal stuff on other days
-            out(">>> End Simulation Day "+day+" "+dayOfWeek+"\n");
+            out(">>> End Simulation Day for FNCD South"+day+" "+dayOfWeek+"\n");
             dayOfWeek = getNextDay(dayOfWeek);  // increment to the next day
         }
 
 
-        out("Which FNCD would you like to go to? North or South? Please enter your input exactly how it is writen.");
+        out("Which FNCD would you like to go to? North or South? Please enter your input exactly how it is written.");
         Scanner Choice = new Scanner(System.in);
-        boolean UserIn = true;
 
         while(true){
             String Store = Choice.nextLine();
 
-            if(Store.equals("North")){
+            if(Store.equalsIgnoreCase("North")){
                 UserMenu FNCDChoice = new UserMenu();
                 FNCDChoice.Menu(North);
                 break; 
             }
-            else if (Store.equals("South")){
+            else if (Store.equalsIgnoreCase("South")){
                 UserMenu FNCDChoice = new UserMenu();
                 FNCDChoice.Menu(South);
                 break;
@@ -72,7 +71,6 @@ public class Simulator implements SysOut {
                     break;
                 }
             }
-
         }
         Choice.close();
     }

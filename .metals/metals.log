@@ -7357,3 +7357,119 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 Mar 17, 2023 4:44:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
 2023.03.17 18:53:49 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:04:12 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 19:04:18 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tests.java
+Mar 17, 2023 7:04:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2023.03.17 19:04:55 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:15:39 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/FNCD.java
+2023.03.17 19:15:40 INFO  time: code lens generation in 1.01s
+2023.03.17 19:16:00 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/SysOut.java
+2023.03.17 19:16:27 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 19:16:34 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 19:16:53 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 19:18:11 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:18:48 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:18:49 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java:10: error: '{' expected
+class SalespersonName implements BuyerInterface and Sysout{ 
+                                               ^
+/Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java:15: error: not a statement
+            ("The name of the salesperson helping you is " + SalesName);
+            ^
+2 errors
+2023.03.17 19:18:50 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:18:51 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java:10: error: '{' expected
+class SalespersonName implements BuyerInterface and SysOut{ 
+                                               ^
+/Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java:15: error: not a statement
+            ("The name of the salesperson helping you is " + SalesName);
+            ^
+2 errors
+2023.03.17 19:18:55 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:18:55 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java:10: error: '{' expected
+class SalespersonName implements BuyerInterface and SysOut{ 
+                                               ^
+1 error
+Mar 17, 2023 7:19:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 303
+2023.03.17 19:19:33 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:19:52 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:20:00 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:20:05 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:20:11 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:20:23 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:20:29 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:22:19 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:22:24 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:22:32 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:24:40 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:25:48 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:26:44 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:29:36 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:29:50 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:30:03 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:30:34 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:30:35 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java:59: error: ';' expected
+                        out("")
+                               ^
+1 error
+2023.03.17 19:31:08 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:31:08 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java:57: error: not a statement
+                        vehicleInventory.get(i).cleanliness;
+                                               ^
+/Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java:59: error: ';' expected
+                        out("")
+                               ^
+2 errors
+2023.03.17 19:32:02 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:32:46 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:32:56 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/SysOut.java
+2023.03.17 19:33:46 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Vehicle.java
+2023.03.17 19:34:29 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:35:45 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:36:39 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/FNCD.java
+2023.03.17 19:39:59 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Vehicle.java
+2023.03.17 19:40:06 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:40:26 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Vehicle.java
+2023.03.17 19:40:44 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:41:56 INFO  Shutting down server
+2023.03.17 19:41:56 INFO  shutting down Metals
+2023.03.17 19:41:56 INFO  Exiting server
+2023.03.17 19:42:23 INFO  Started: Metals version 0.11.11 in workspace '/Users/raf/Documents/OOAD/Project-4.2' for client Visual Studio Code 1.76.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/raf/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.17 19:42:25 INFO  time: initialize in 1.47s
+2023.03.17 19:42:27 WARN  Build server is not auto-connectable.
+2023.03.17 19:42:27 WARN  no build tool detected in workspace '/Users/raf/Documents/OOAD/Project-4.2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.17 19:42:27 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/BuyerInterface.java
+2023.03.17 19:43:31 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/SysOut.java
+2023.03.17 19:43:37 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Logger.java
+2023.03.17 19:43:41 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
+2023.03.17 19:43:55 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
+2023.03.17 19:43:58 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
+2023.03.17 19:44:20 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
+2023.03.17 19:45:42 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
+2023.03.17 19:46:14 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
+2023.03.17 19:46:32 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Tracker.java
+2023.03.17 19:46:44 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 19:47:16 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 19:47:29 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 19:47:30 WARN  Running javac-semanticdb failed for file:///Users/raf/Documents/OOAD/Project-4.2/Simulator.java. Output:
+/Users/raf/Documents/OOAD/Project-4.2/Simulator.java:74: error: not a statement
+            Store.igno
+                 ^
+/Users/raf/Documents/OOAD/Project-4.2/Simulator.java:74: error: ';' expected
+            Store.igno
+                      ^
+2 errors
+2023.03.17 19:47:33 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java
+2023.03.17 19:47:38 WARN  no build target for: /Users/raf/Documents/OOAD/Project-4.2/Simulator.java

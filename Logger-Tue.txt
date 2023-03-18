@@ -1,14 +1,12 @@
  The FNCD is opening... Day Tue 
-Hired a new Intern named Ethel-18 
-Hired a new Driver named Hunt-3 
-FNCD bought Cayman-5, a Dirty Used PerfCar for $18,541.60 
-FNCD bought Hawke-4, a Clean Broken Semi for $53,387.00 
+Hired a new Intern named Lucy-19 
+FNCD bought Mercedes-6, a Dirty LikeNew Luxury for $38,065.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 2 buyers today... 
-Intern Lucy-17 has quit the FNCD 
-Vehicles in inventory 53 
-Vehicles sold count 31 
-Money in the budget $3,968,785.87 
+The FNCD has 4 buyers today... 
+Intern Fred-18 has quit the FNCD 
+Vehicles in inventory 52 
+Vehicles sold count 34 
+Money in the budget $5,976,194.56 
 That's it for the day. 

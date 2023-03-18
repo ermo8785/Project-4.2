@@ -24,12 +24,12 @@ public class Tracker extends FNCD {
         System.out.println("Tracker -- Day: " + simDay);
         for(Tracker t  : dealerTracker){
             int count = 0;
-            if(count == 1){
-                break;
-            }
             System.out.println("Vehicles sold: "+ t.vehiclesSold);
             System.out.println("Vehicles in inventory: " + t.vehiclesInInventory);
             count ++;
+            if(count == 1){
+                break;
+            }
         }
         System.out.println(" ");
 
