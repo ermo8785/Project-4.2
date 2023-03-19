@@ -1,12 +1,17 @@
  The FNCD is opening... Day Tue 
-Hired a new Intern named Fred-22 
-FNCD bought Taurus-7, a Dirty LikeNew Car for $13,387.00 
+Hired a new Intern named Fred-20 
+Hired a new Driver named Eric-4 
+FNCD bought Mustang-6, a Clean LikeNew PerfCar for $35,687.00 
+FNCD bought Ranger-8, a Dirty LikeNew Pickup for $30,306.00 
+FNCD bought Ninja-5, a Clean Used Motorcycle for $23,531.20 
+FNCD bought Harley Davidson-6, a Clean Used Motorcycle for $12,021.60 
+FNCD bought Mercedes-6, a Sparkling LikeNew Luxury for $69,951.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
 The FNCD has 3 buyers today... 
-Intern Desi-20 has quit the FNCD 
-Vehicles in inventory 51 
-Vehicles sold count 29 
-Money in the budget $5,123,783.98 
+Intern Fred-20 has quit the FNCD 
+Vehicles in inventory 52 
+Vehicles sold count 36 
+Money in the budget $5,367,688.29 
 That's it for the day. 

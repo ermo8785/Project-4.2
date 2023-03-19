@@ -1,15 +1,14 @@
  The FNCD is opening... Day Fri 
-Hired a new Intern named Lucy-20 
-Hired a new Intern named Desi-20 
+Hired a new Intern named Fred-21 
 Hired a new Driver named Luke-4 
-FNCD bought Tesla-5, a Dirty Used Luxury for $54,169.60 
-FNCD bought Mercedes-6, a Dirty Broken Luxury for $34,902.50 
+FNCD bought Mustang-6, a Dirty LikeNew ElectricCar for $39,483.00 
+FNCD bought Kawasaki-6, a Clean Broken Motorcycle for $17,857.00 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
-The FNCD has 3 buyers today... 
-Intern Lucy-20 has quit the FNCD 
-Vehicles in inventory 53 
-Vehicles sold count 26 
-Money in the budget $4,496,384.86 
+The FNCD has 7 buyers today... 
+Intern Desi-18 has quit the FNCD 
+Vehicles in inventory 52 
+Vehicles sold count 32 
+Money in the budget $6,085,385.61 
 That's it for the day. 

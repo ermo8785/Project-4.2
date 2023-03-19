@@ -1,16 +1,15 @@
  The FNCD is opening... Day Mon 
-Hired a new Intern named Lucy-21 
 Hired a new Intern named Desi-21 
-FNCD bought Mustang-6, a Dirty Broken PerfCar for $12,189.00 
-FNCD bought Europa-7, a Clean Used PerfCar for $24,848.80 
-FNCD bought Mitsubishi-5, a Dirty LikeNew Motorcycle for $12,464.00 
-FNCD bought Roadhog-5, a Clean Broken Offroad for $14,774.50 
 The FNCD interns are washing... 
 The FNCD mechanics are repairing... 
 The FNCD salespeople are selling... 
 The FNCD has 1 buyers today... 
-Intern Lucy-21 has quit the FNCD 
+Salesperson Lucy-11 has quit the FNCD 
+Intern Desi-21 has been promoted to a salesmen! 
+Mechanic Scotty-2 has quit the FNCD 
+Intern Ethel-21 has been promoted to a mechanic! 
+Intern Desi-21 has quit the FNCD 
 Vehicles in inventory 54 
-Vehicles sold count 31 
-Money in the budget $4,098,126.71 
+Vehicles sold count 36 
+Money in the budget $5,345,310.79 
 That's it for the day. 
